@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>주문 목록 | 예시몰</title>
+<style>
+  body { margin: 0; font-family: sans-serif; color: #222; }
+  main { padding: 24px; }
+  /* 역할 표시가 없는 확인 층: [취소]는 href 없는 a(눌리는 모양), [확인]은 button — 둘 다 세야 "알림 한 개짜리"로 잘못 보지 않음 */
+  .layer { position: fixed; inset: 0; background: rgba(0,0,0,0.45); }
+  .box { position: absolute; top: 220px; left: 50%; width: 360px; margin-left: -180px; background: #fff; padding: 24px; border-radius: 8px; }
+  .box .btns { display: flex; gap: 12px; justify-content: flex-end; }
+  .btn-cancel { cursor: pointer; padding: 6px 12px; border: 1px solid #aaa; }
+</style>
+</head>
+<body>
+<main>
+  <h1>주문 목록</h1>
+  <p><a href="/order/1">무선 이어폰 X2</a> <button type="button">주문 취소</button></p>
+</main>
+<div class="layer">
+  <div class="box">
+    <p><b>주문을 취소할까요?</b> 취소하면 되돌릴 수 없어요.</p>
+    <div class="btns">
+      <a class="btn-cancel">취소</a>
+      <button type="button">확인</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>

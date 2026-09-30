@@ -1,0 +1,108 @@
+PTW grid — AI eyes for web reading, by Philosophy That Works
+https://github.com/philosophythatworks/ptw-grid
+
+Copyright © 2026 Hwang Dae Jin (Philosophy That Works)
+
+Philosophy That Works is not yet an incorporated company. The rights
+are held by Hwang Dae Jin personally.
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, version 3 only.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero
+General Public License for more details.
+
+
+LICENCES IN THIS REPOSITORY
+
+  AGPL-3.0-only
+    The engine: all code, except the files listed below (REUSE.toml
+    gives the licence of each file).
+    LICENSE is a copy of AGPL-3.0-only (the same text as
+    LICENSES/AGPL-3.0-only.txt).
+
+  CC-BY-4.0
+    The GRID/1 specification: spec/GRID-1.md and spec/GRID-1.ko.md.
+    Documentation and project policy files: README.md, README.ko.md,
+    CHANGELOG.md, CONTRIBUTING.md, SECURITY.md, COMMERCIAL.md,
+    TRADEMARKS.md and this NOTICE.
+
+  CC0-1.0
+    Conformance material: test/captures, test/snapshots,
+    cli/fixtures and src/core/capture.d.ts (the capture format).
+    The example outputs in the specification (the code blocks and
+    quoted output lines in sections 3–7) and its legend paragraph in
+    section 1, as the Licence line at the top of the specification
+    says.
+    The legend string LEGEND.A in src/core/format.js (marked with
+    SPDX-SnippetBegin / SPDX-SnippetEnd).
+    Small project files: .gitignore, package-lock.json, REUSE.toml.
+
+  The legend paragraph is the short "how to read GRID/1" text given
+  to agents. It appears in section 1 of the specification, in
+  README.md and README.ko.md, and as LEGEND.A in src/core/format.js.
+  It is CC0-1.0 in each of these places.
+
+  The licence texts are in LICENSES/. REUSE.toml gives the licence
+  of every file, and README.md (Licensing) sums it up.
+
+
+AUTHORSHIP
+
+  All code in this repository was made by the copyright holder
+  working with an AI coding assistant (Claude, by Anthropic), which
+  drafted much of it. No code has been contributed by other people.
+
+
+COMMERCIAL LICENCE
+
+  The engine is also available under a commercial licence from the
+  copyright holder, for uses that cannot meet the AGPL. See
+  COMMERCIAL.md, or contact us through https://philosophythatworks.com/
+
+
+PROGRAM OUTPUT
+
+  GRID/1 text produced by PTW grid may be used freely: we claim no
+  rights in it, and PTW grid's own fixed wording in it is CC0-1.0.
+  Text and data from web pages that appear in the output still
+  belong to their owners.
+
+
+NAMES
+
+  "PTW grid" and "Philosophy That Works" (and "PTW", used as short
+  for Philosophy That Works) identify releases from Philosophy That
+  Works. The licences above give no rights to these names; for the
+  AGPL-3.0-only code, this is an additional term under section 7(e)
+  of the AGPL. See TRADEMARKS.md.
+
+
+SECURITY
+
+  Please report security problems privately, as described in
+  SECURITY.md.
+
+
+THIRD-PARTY SOFTWARE
+
+  REUSE-IgnoreStart
+  Electron (https://www.electronjs.org/) - MIT License
+    Copyright (c) Electron contributors
+    Copyright (c) 2013-2020 GitHub Inc.
+  REUSE-IgnoreEnd
+
+  Electron is a runtime dependency: npm install downloads it into
+  node_modules. It is not included in this repository. Electron
+  binaries contain Chromium and other third-party components. Their
+  notices (LICENSES.chromium.html, shipped with Electron) must be
+  kept when you redistribute Electron binaries, for example inside a
+  packaged application.
+
+  npm install also fetches type definitions and small packages that
+  Electron needs for its installation. These are under the MIT, ISC,
+  BSD-2-Clause and Apache-2.0 licences (see package-lock.json). They
+  are not part of PTW grid.

@@ -1,0 +1,47 @@
+{
+  "name": "ptw-grid",
+  "version": "0.1.4",
+  "private": true,
+  "description": "PTW grid — AI eyes for web reading. Turns any public web page into GRID/1 text that any AI agent can read the same way.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agent",
+    "web",
+    "browser",
+    "accessibility",
+    "grid",
+    "GRID/1"
+  ],
+  "homepage": "https://github.com/philosophythatworks/ptw-grid#readme",
+  "bugs": {
+    "url": "https://github.com/philosophythatworks/ptw-grid/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philosophythatworks/ptw-grid.git"
+  },
+  "license": "AGPL-3.0-only",
+  "author": {
+    "name": "Hwang Dae Jin (Philosophy That Works)",
+    "url": "https://philosophythatworks.com/"
+  },
+  "type": "module",
+  "dependencies": {
+    "electron": "^44.4.5"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "test:electron": "electron test/electron-smoke.mjs",
+    "read": "electron cli/grid.mjs read",
+    "text": "node cli/text.mjs",
+    "mcp": "node src/hosts/mcp/server.mjs",
+    "test:mcp": "node test/mcp-smoke.mjs"
+  },
+  "exports": {
+    ".": "./src/core/index.js",
+    "./reader": "./src/hosts/electron/reader.mjs",
+    "./walker": "./src/page/walker.js",
+    "./capture": "./src/core/capture.d.ts"
+  }
+}

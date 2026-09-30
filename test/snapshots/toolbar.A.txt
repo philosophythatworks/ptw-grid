@@ -1,0 +1,32 @@
+GRID/1 · gridfix://fixture/toolbar.html · "주문 내역 | 예시몰"
+sheet A–L × 40px rows from page top · screen = 20 rows · page ≈ 1.0 screens (rows 1–20)
+view rows 1–20 (screen 1/1)
+checks: covered 7/10 tested · hidden text dropped 0
+⚠ O1 = dialog "주문을 취소할까요?" — covers 7 items (7 in view); close it with [10] first
+⚠ modal dialog "주문을 취소할까요?" is open
+▸ pinned (stays on screen while scrolling) · dialog "주문을 취소할까요?"
+  # t13 "주문을 취소할까요?" @vE6-vF6
+  t14 "무선 이어폰 X2 (59,000원) 주문을 취소합니다. 취소하면 되돌릴 수 없어요." @vE7-vI8
+  [8] button "주문 취소하기" @vH8-vI9
+  [9] button "돌아가기" @vG8-vH9
+  [10] button "닫기" @vI5-vI6
+▸ header @A1-L2
+  [1] link "예시몰" (covered by O1) @A1
+▸ nav "내 메뉴" @J1-L1
+  [2] link "로그인" (covered by O1) @L1
+  [3] link "회원가입" (covered by O1) @K1-L1
+  [4] link "고객센터" (covered by O1) @K1
+  [5] link "장바구니" (covered by O1) @J1
+▸ main @A2-L8
+  # t1 "주문 내역" @A3-B4
+  t2 "주문 번호" @A5
+  t3 "상품" @E5
+  t4 "금액" @H5
+  t5 "2026-0930-001" @A6-B6
+  t6 "무선 이어폰 X2" @E6-F6
+  t7 "59,000원" @H6-I6
+  [6] link "자세히" (covered by O1) @K6
+  t9 "2026-0928-014" @A7-B7
+  t10 "휴대폰 케이스" @E7-F7
+  t11 "12,000원" @H7-I7
+  [7] link "자세히" (covered by O1) @K7

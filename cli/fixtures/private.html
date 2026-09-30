@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>적은 값 가리기 시험 | 예시</title>
+<style>body{margin:0;font:15px -apple-system,system-ui,sans-serif;padding:24px;display:grid;gap:10px;width:420px} [contenteditable]{border:1px solid #aaa;padding:8px;min-height:40px}</style>
+</head>
+<body>
+<h1>주문서</h1>
+<p>보이는 안내 글입니다.</p>
+<label>이름 <input type="text" value="홍길동비밀"></label>
+<label>검색 <input type="search" value="비밀검색어"></label>
+<label>수량 <input type="number" value="37"></label>
+<label>음량 <input type="range" value="40"></label>
+<label>주소 <textarea>서울시 비밀구 1번지</textarea></label>
+<div contenteditable="true" role="textbox" aria-label="메모"><p>일기장비밀 첫 줄</p><p>둘째 줄</p></div>
+<div contenteditable="true"><p>역할없는편집칸비밀</p></div>
+<label>색상 <select><option>검정</option><option selected>파랑</option></select></label>
+<label>암호 <input type="password" value="pw-secret"></label>
+<label>카드 유효기간 <select autocomplete="cc-exp-month"><option value=""></option><option>06</option><option selected>07</option><option>08</option></select></label>
+<label>역할만 바꾼 글 칸 <input type="text" role="slider" value="슬라이더흉내비밀"></label>
+<div contenteditable="true" role="combobox">콤보편집비밀</div>
+<div contenteditable="true"><a title="링크제목비밀" href="https://example.com/x">링크글비밀</a> 편집 뒤</div>
+<div contenteditable="true" style="height:0;overflow:hidden">숨은편집비밀</div>
+<iframe title="옛 편집기" style="width:300px;height:80px" srcdoc="<!doctype html><body><p>디자인모드비밀</p><script>document.designMode='on'</script></body>"></iframe>
+<button type="button">주문하기</button>
+</body>
+</html>

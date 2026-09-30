@@ -1,0 +1,10 @@
+node_modules
+dist/
+runs/
+.userdata/
+.DS_Store
+*.log
+.env*
+.claude/
+CLAUDE.md
+CLAUDE.local.md

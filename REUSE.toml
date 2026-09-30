@@ -1,0 +1,88 @@
+# REUSE.toml: copyright and licence information for every file in PTW grid
+# (REUSE Specification 3.2, https://reuse.software/). Check with: reuse lint
+#
+# When several [[annotations]] tables match a file, the last matching table
+# is used. So the general rule comes first and the exceptions follow.
+#   precedence = "closest":  licence information in the file itself (its SPDX
+#                            header) wins over this file.
+#   precedence = "override": this file decides, even if the file carries its
+#                            own header. It is used for the conformance
+#                            material, which must stay CC0-1.0.
+#
+# Licence texts: LICENSES/AGPL-3.0-only.txt, LICENSES/CC-BY-4.0.txt and
+# LICENSES/CC0-1.0.txt. LICENSE is a copy of LICENSES/AGPL-3.0-only.txt.
+# Under REUSE, licence files (LICENSE and everything in LICENSES/) and this
+# REUSE.toml are not covered files, so the rules below do not apply to them;
+# REUSE.toml is listed anyway so that its own licence is stated. Files that
+# git ignores (such as node_modules, runs/ and .userdata/) are not part of
+# the project.
+#
+# These parts of files have their own licence, which REUSE.toml cannot
+# express:
+#   - The legend string LEGEND.A in src/core/format.js is CC0-1.0. It is
+#     marked in the file with SPDX-SnippetBegin / SPDX-SnippetEnd.
+#   - The example outputs (the code blocks and quoted output lines in
+#     sections 3–7) and the legend paragraph in section 1 of spec/GRID-1.md
+#     and spec/GRID-1.ko.md are CC0-1.0. They are declared in the Licence
+#     line at the top of each file; the legend is also marked with
+#     SPDX-SnippetBegin / SPDX-SnippetEnd.
+#   - The legend paragraph quoted in README.md and README.ko.md is CC0-1.0
+#     (stated in the text).
+
+version = 1
+
+# Engine: all code, including package.json, and anything not listed below.
+[[annotations]]
+path = "**"
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Hwang Dae Jin (Philosophy That Works)"
+SPDX-License-Identifier = "AGPL-3.0-only"
+
+# Small project files, free for anyone to copy.
+[[annotations]]
+path = [
+  ".gitignore",
+  "package-lock.json",
+  "REUSE.toml",
+]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Hwang Dae Jin (Philosophy That Works)"
+SPDX-License-Identifier = "CC0-1.0"
+
+# Documentation and project policy files: CC-BY-4.0.
+[[annotations]]
+path = [
+  "README.md",
+  "README.ko.md",
+  "CHANGELOG.md",
+  "CONTRIBUTING.md",
+  "SECURITY.md",
+  "COMMERCIAL.md",
+  "TRADEMARKS.md",
+  "NOTICE",
+]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Hwang Dae Jin (Philosophy That Works)"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# GRID/1 grammar specification, in every language: CC-BY-4.0.
+# (The example outputs and the legend paragraph inside it are CC0-1.0; see
+# above.)
+[[annotations]]
+path = "spec/GRID-1*.md"
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Hwang Dae Jin (Philosophy That Works)"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Conformance material: the test pages, the raw captures, the expected
+# GRID/1 output and the capture format. CC0-1.0, always.
+[[annotations]]
+path = [
+  "test/captures/**",
+  "test/snapshots/**",
+  "cli/fixtures/**",
+  "src/core/capture.d.ts",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Hwang Dae Jin (Philosophy That Works)"
+SPDX-License-Identifier = "CC0-1.0"

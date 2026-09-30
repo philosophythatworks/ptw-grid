@@ -1,0 +1,579 @@
+{
+ "capture": 1,
+ "no": 2,
+ "url": "gridfix://fixture/toolbar.html",
+ "title": "주문 내역 | 예시몰",
+ "viewport": {
+  "w": 1280,
+  "h": 800
+ },
+ "page": {
+  "w": 1280,
+  "h": 800
+ },
+ "scroll": {
+  "x": 0,
+  "y": 0
+ },
+ "dpr": 1,
+ "items": [
+  {
+   "kind": "action",
+   "n": 1,
+   "role": "link",
+   "name": "예시몰",
+   "tag": "a",
+   "states": [],
+   "r": [
+    24,
+    12,
+    57,
+    27
+   ],
+   "region": 1,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/",
+   "hit": false,
+   "by": {
+    "tag": "div.backdrop",
+    "layer": {
+     "role": null,
+     "name": "",
+     "pin": "fixed",
+     "acts": [],
+     "count": 0,
+     "h": 800
+    }
+   }
+  },
+  {
+   "kind": "action",
+   "n": 2,
+   "role": "link",
+   "name": "로그인",
+   "tag": "a",
+   "states": [],
+   "r": [
+    1214,
+    16,
+    42,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/login",
+   "hit": false,
+   "by": {
+    "tag": "div.backdrop",
+    "layer": {
+     "role": null,
+     "name": "",
+     "pin": "fixed",
+     "acts": [],
+     "count": 0,
+     "h": 800
+    }
+   }
+  },
+  {
+   "kind": "action",
+   "n": 3,
+   "role": "link",
+   "name": "회원가입",
+   "tag": "a",
+   "states": [],
+   "r": [
+    1143,
+    16,
+    55,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/join",
+   "hit": false,
+   "by": {
+    "tag": "div.backdrop",
+    "layer": {
+     "role": null,
+     "name": "",
+     "pin": "fixed",
+     "acts": [],
+     "count": 0,
+     "h": 800
+    }
+   }
+  },
+  {
+   "kind": "action",
+   "n": 4,
+   "role": "link",
+   "name": "고객센터",
+   "tag": "a",
+   "states": [],
+   "r": [
+    1072,
+    16,
+    55,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/help",
+   "hit": false,
+   "by": {
+    "tag": "div.backdrop",
+    "layer": {
+     "role": null,
+     "name": "",
+     "pin": "fixed",
+     "acts": [],
+     "count": 0,
+     "h": 800
+    }
+   }
+  },
+  {
+   "kind": "action",
+   "n": 5,
+   "role": "link",
+   "name": "장바구니",
+   "tag": "a",
+   "states": [],
+   "r": [
+    1000,
+    16,
+    55,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/cart",
+   "hit": false,
+   "by": {
+    "tag": "div.backdrop",
+    "layer": {
+     "role": null,
+     "name": "",
+     "pin": "fixed",
+     "acts": [],
+     "count": 0,
+     "h": 800
+    }
+   }
+  },
+  {
+   "kind": "heading",
+   "t": 1,
+   "text": "주문 내역",
+   "level": 1,
+   "r": [
+    24,
+    97,
+    119,
+    39
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "text",
+   "t": 2,
+   "text": "주문 번호",
+   "r": [
+    34,
+    168,
+    60,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "text",
+   "t": 3,
+   "text": "상품",
+   "r": [
+    450,
+    168,
+    28,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 2
+  },
+  {
+   "kind": "text",
+   "t": 4,
+   "text": "금액",
+   "r": [
+    813,
+    168,
+    28,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 2
+  },
+  {
+   "kind": "text",
+   "t": 5,
+   "text": "2026-0930-001",
+   "r": [
+    34,
+    208,
+    112,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 13
+  },
+  {
+   "kind": "text",
+   "t": 6,
+   "text": "무선 이어폰 X2",
+   "r": [
+    450,
+    208,
+    96,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 9
+  },
+  {
+   "kind": "text",
+   "t": 7,
+   "text": "59,000원",
+   "r": [
+    813,
+    208,
+    63,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "action",
+   "n": 6,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    1073,
+    208,
+    42,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/order/1",
+   "hit": false,
+   "by": {
+    "tag": "div.backdrop",
+    "layer": {
+     "role": null,
+     "name": "",
+     "pin": "fixed",
+     "acts": [],
+     "count": 0,
+     "h": 800
+    }
+   }
+  },
+  {
+   "kind": "text",
+   "t": 8,
+   "text": "⟦6|자세히⟧",
+   "r": [
+    1073,
+    208,
+    42,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "links": [
+    6
+   ],
+   "chars": 7,
+   "onlyLinks": true
+  },
+  {
+   "kind": "text",
+   "t": 9,
+   "text": "2026-0928-014",
+   "r": [
+    34,
+    248,
+    110,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 13
+  },
+  {
+   "kind": "text",
+   "t": 10,
+   "text": "휴대폰 케이스",
+   "r": [
+    450,
+    248,
+    87,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "text",
+   "t": 11,
+   "text": "12,000원",
+   "r": [
+    813,
+    248,
+    61,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "action",
+   "n": 7,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    1073,
+    248,
+    42,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/order/2",
+   "hit": false,
+   "by": {
+    "tag": "div.backdrop",
+    "layer": {
+     "role": null,
+     "name": "",
+     "pin": "fixed",
+     "acts": [],
+     "count": 0,
+     "h": 800
+    }
+   }
+  },
+  {
+   "kind": "text",
+   "t": 12,
+   "text": "⟦7|자세히⟧",
+   "r": [
+    1073,
+    248,
+    42,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "links": [
+    7
+   ],
+   "chars": 7,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 13,
+   "text": "주문을 취소할까요?",
+   "level": 2,
+   "r": [
+    454,
+    204,
+    183,
+    29
+   ],
+   "region": 4,
+   "pin": "fixed",
+   "sc": null,
+   "chars": 10
+  },
+  {
+   "kind": "text",
+   "t": 14,
+   "text": "무선 이어폰 X2 (59,000원) 주문을 취소합니다. 취소하면 되돌릴 수 없어요.",
+   "r": [
+    454,
+    249,
+    419,
+    38
+   ],
+   "region": 4,
+   "pin": "fixed",
+   "sc": null,
+   "chars": 46
+  },
+  {
+   "kind": "action",
+   "n": 8,
+   "role": "button",
+   "name": "주문 취소하기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    785,
+    303,
+    89,
+    22
+   ],
+   "region": 4,
+   "pin": "fixed",
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 9,
+   "role": "button",
+   "name": "돌아가기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    711,
+    303,
+    62,
+    22
+   ],
+   "region": 4,
+   "pin": "fixed",
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 10,
+   "role": "button",
+   "name": "닫기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    866,
+    188,
+    24,
+    25
+   ],
+   "region": 4,
+   "pin": "fixed",
+   "sc": null,
+   "hit": true
+  }
+ ],
+ "regions": [
+  {
+   "id": 1,
+   "role": "banner",
+   "name": "",
+   "r": [
+    0,
+    0,
+    1280,
+    52
+   ],
+   "pin": null,
+   "parent": null
+  },
+  {
+   "id": 2,
+   "role": "navigation",
+   "name": "내 메뉴",
+   "r": [
+    1000,
+    16,
+    256,
+    19
+   ],
+   "pin": null,
+   "parent": 1
+  },
+  {
+   "id": 3,
+   "role": "main",
+   "name": "",
+   "r": [
+    0,
+    52,
+    1280,
+    250
+   ],
+   "pin": null,
+   "parent": null
+  },
+  {
+   "id": 4,
+   "role": "dialog",
+   "name": "주문을 취소할까요?",
+   "r": [
+    430,
+    180,
+    468,
+    169
+   ],
+   "pin": "fixed",
+   "parent": null,
+   "modal": true
+  }
+ ],
+ "scrollers": [],
+ "dropped": {
+  "aria-hidden": 0,
+  "tiny": 0,
+  "transparent": 0,
+  "sr-only": 0,
+  "offscreen": 0,
+  "low-contrast": 0,
+  "nameless": 0
+ },
+ "hiddenSamples": [],
+ "facts": {
+  "lang": "ko",
+  "types": [],
+  "og": {}
+ },
+ "visits": 90,
+ "truncated": false,
+ "ms": 2
+}

@@ -1,0 +1,33 @@
+GRID/1 · gridfix://fixture/checkout.html · "여름 반팔 티셔츠 | 예시몰"
+sheet A–L × 40px rows from page top · screen = 20 rows · page ≈ 1.0 screens (rows 1–20)
+view rows 1–20 (screen 1/1)
+checks: covered 2/14 tested · hidden text dropped 0
+⚠ O1 = popup section "쿠키 안내" — covers 2 items (2 in view); close it with [14] first
+▸ pinned (stays on screen while scrolling) · section "쿠키 안내"
+  t12 "이 사이트는 더 나은 서비스를 위해 쿠키를 사용합니다." @vA12-vD12
+  [14] button "확인" @vA13
+▸ header @A1-L2
+  [1] link "예시몰" (sticky) @A1
+  [2] link "장바구니 (0)" (sticky) @L1
+▸ main @A2-L18
+  img t1 "빨간 반팔 티셔츠 사진" @A2-F13
+  # t2 "여름 반팔 티셔츠" @G3-I4
+  t3 "~~25,000원~~ 19,900원" @G4-H5
+  t4 "무료 배송 · 오늘 주문하면 내일 도착" @G5-I6
+  t5 "카드 결제 시 최대 10% 추가 할인 · [3 리뷰 4.8 (1,203)]" @G6-J7
+  [4] select "색상" (required) =선택하세요 · 선택하세요/빨강/파랑/검정 @G7-H8
+  t6 "사이즈" @G8
+  [5] radio "S" (required) @G9
+  [6] radio "M" @G9
+  [7] radio "L" @H9
+  t7 "수량" @G10
+  [8] button "수량 빼기" (disabled) @G10
+  [9] spinbutton "수량" =1 @G10-H10
+  [10] button "수량 더하기" @H10
+  t8 "색상과 사이즈를 고르면 장바구니에 담을 수 있어요. [11 사이즈 가이드]" @G11-J11
+  [12] button "바로 구매" (covered by O1) @H12-I13
+  [13] button "장바구니 담기" (disabled, covered by O1) @G12-H13
+▸ section "상품 설명" @A14-L18
+  # t9 "상품 설명" @A14-B15
+  t10 "가볍고 시원한 면 100% 반팔 티셔츠예요. 여름 내내 편하게 입을 수 있어요." @A16-E16
+  t11 "세탁은 찬물에 뒤집어서 해 주세요. 건조기는 줄어들 수 있어요." @A17-D17

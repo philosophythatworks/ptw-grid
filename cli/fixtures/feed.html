@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>끝없는 목록 시험 | 예시</title>
+<style>
+  body{margin:0;font:15px -apple-system,system-ui,sans-serif}
+  header{position:fixed;top:0;left:0;right:0;height:56px;background:#fff;border-bottom:1px solid #ddd;display:flex;align-items:center;gap:12px;padding:0 20px;z-index:5}
+  main{padding:70px 20px 20px;width:800px;margin:0 auto}
+  .card{height:220px;border:1px solid #ddd;border-radius:8px;margin:14px 0;padding:14px}
+  .top{position:fixed;right:20px;bottom:20px;width:48px;height:48px;border-radius:24px}
+</style>
+</head>
+<body>
+<header><strong>예시 피드</strong><a href="/new">새 글</a><button aria-label="알림">🔔</button></header>
+<main id="list"></main>
+<button class="top" aria-label="맨 위로">↑</button>
+<script>
+  // 아래로 내리면 10개씩 더 불러온다 (최대 30개) — 늦게 뜨는 내용 · 번호가 그대로인지 시험
+  let n = 0;
+  const list = document.getElementById("list");
+  function more() {
+    if (n >= 30) return;
+    for (let i = 0; i < 10; i++) {
+      n++;
+      const d = document.createElement("div");
+      d.className = "card";
+      d.innerHTML = "<h3>글 " + n + "</h3><p>내용 " + n + "</p><button>좋아요</button> <a href='/p/" + n + "'>자세히</a>";
+      list.appendChild(d);
+    }
+  }
+  more();
+  addEventListener("scroll", () => {
+    if (innerHeight + scrollY > document.documentElement.scrollHeight - 300) setTimeout(more, 150);
+  });
+</script>
+</body>
+</html>

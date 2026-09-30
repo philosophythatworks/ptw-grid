@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>넘어가기 시험 | 예시</title>
+</head>
+<body>
+<h1>넘어가기 시험</h1>
+<p>이 페이지는 열리자마자 이 컴퓨터 안 주소와 file 주소로 넘어가려고 해요. 읽기 방은 둘 다 막아야 해요.</p>
+<a href="http://127.0.0.1:9/">이 컴퓨터 안으로 가는 링크</a>
+<script>
+  setTimeout(() => { location.href = "http://127.0.0.1:9/admin"; }, 50);
+  setTimeout(() => { location.href = "file:///etc/hosts"; }, 150);
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+GRID/1 · gridfix://fixture/dashboard.html · "내 대시보드 | 예시 오피스"
+sheet A–L × 40px rows from page top · screen = 20 rows · page ≈ 1.0 screens (rows 1–20)
+view rows 1–20 (screen 1/1)
+checks: covered 0/8 tested · hidden text dropped 0
+▸ pinned (stays on screen while scrolling) · nav "메뉴"
+  [1] link "홈" @vA4-vB5
+  [2] link "통계" @vA3-vB4
+  [3] link "설정" @vA2-vB3
+  [4] link "도움말" @vA1-vB2
+▸ main @B1-L15
+  # t1 "내 대시보드" @B2-D3
+▸ section "알림" @G9-L14
+  # t2 "알림" @H10-H11
+  t3 "새 알림 3개" @H11-H12
+  [5] button "알림 모두 읽기" @H12-H13
+▸ section "날씨" @B9-G14
+  # t4 "날씨" @C10-C11
+  t5 "서울 맑음 21°C" @C11-C12
+  [6] button "날씨 새로고침" @C12-C13
+▸ section "일정" @G3-L8
+  # t6 "일정" @H4-H5
+  t7 "오후 3시 회의" @H5-H6
+  [7] button "일정 추가" @H6-H7
+▸ section "메모" @B3-G8
+  # t8 "메모" @C4-C5
+  t9 "장보기: 우유, 달걀" @C5-D6
+  [8] button "메모 쓰기" @C6-C7

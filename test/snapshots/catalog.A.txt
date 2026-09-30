@@ -1,0 +1,60 @@
+GRID/1 · gridfix://fixture/catalog.html · "제철 과일 | 예시몰"
+sheet A–L × 40px rows from page top · screen = 20 rows · page ≈ 1.0 screens (rows 1–20)
+view rows 1–20 (screen 1/1)
+checks: covered 0/22 tested · hidden text dropped 0
+▸ header @A1-L2
+  [1] link "예시몰" @A1-A2
+  [2] searchbox "상품 검색" =(empty) @A1-K2
+▸ nav "내 메뉴" @K1-L1
+  [3] link "로그인" @K1-L1
+  [4] link "장바구니" @L1
+▸ aside "필터" @J3-L17
+  # t1 "필터" @J3-K4
+  # t2 "가격대" @J5-K5
+  [5] checkbox "1만 원 이하" @J6
+  [6] checkbox "1만~3만 원" @J6-J7
+  [7] checkbox "3만 원 이상" @J7
+  # t3 "원산지" @J8-K8
+  [8] checkbox "국내산" @J9
+  [9] checkbox "수입" @J9-J10
+  [10] button "필터 적용" @J10-K11
+▸ main @A3-J17
+  # t4 "제철 과일" @A3-B4
+  # t5 "사과 1kg" @A7
+  t6 "12,900원" @A7-A8
+  [11] button "담기" @A8
+  # t7 "배 2kg" @A11
+  t8 "18,500원" @A12
+  [12] button "담기" @A12-A13
+  # t9 "귤 3kg" @A15-A16
+  t10 "15,800원" @A16
+  [13] button "담기" @A17
+  # t11 "포도 1.5kg" @C7-D7
+  t12 "21,000원" @C7-D8
+  [14] button "담기" @C8-D8
+  # t13 "딸기 500g" @C11-D11
+  t14 "9,900원" @C12-D12
+  [15] button "담기" @C12-D13
+  # t15 "수박 1통" @C15-D16
+  t16 "24,900원" @C16-D16
+  [16] button "담기" @C17-D17
+  # t17 "참외 2kg" @E7-F7
+  t18 "16,400원" @E7-F8
+  [17] button "담기" @E8-F8
+  # t19 "복숭아 1.5kg" @E11-F11
+  t20 "27,500원" @E12-F12
+  [18] button "담기" @E12-F13
+  # t21 "자두 1kg" @E15-F16
+  t22 "11,200원" @E16-F16
+  [19] button "담기" @E17-F17
+  # t23 "망고 4개" @H7
+  t24 "19,900원" @H7-H8
+  [20] button "담기" @H8
+  # t25 "키위 1kg" @H11
+  t26 "8,700원" @H12
+  [21] button "담기" @H12-H13
+  # t27 "블루베리 300g" @H15-I16
+  t28 "13,300원" @H16
+  [22] button "담기" @H17
+▸ footer @A18-L20
+  t29 "예시몰 · 고객센터 1588-0000" @A19-C19

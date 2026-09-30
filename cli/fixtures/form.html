@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>로그인 · 위젯 시험 | 예시</title>
+<style>
+  body{margin:0;font:15px -apple-system,system-ui,sans-serif;padding:24px}
+  form{width:380px;border:1px solid #ccc;padding:20px;display:grid;gap:10px}
+  input[type=email],input[type=password]{height:36px}
+  .widgets{display:flex;gap:30px;margin-top:30px;align-items:flex-start}
+  iframe{width:360px;height:160px;border:1px solid #aaa}
+  details{margin-top:30px}
+</style>
+</head>
+<body>
+<h1>로그인</h1>
+<form aria-label="로그인">
+  <label>이메일 <input type="email" value="test@example.com" autocomplete="username"></label>
+  <label>비밀번호 <input type="password" value="secret-value" autocomplete="current-password"></label>
+  <label><input type="checkbox" checked> 로그인 상태 유지</label>
+  <button type="button">로그인</button>
+  <a href="/find">비밀번호 찾기</a>
+</form>
+<div class="widgets">
+  <x-card></x-card>
+  <iframe title="같은 출처 프레임" srcdoc="<!doctype html><body style='font:14px system-ui'><p>프레임 안의 글</p><button>프레임 버튼</button> <a href='https://example.com/inside'>프레임 링크</a></body>"></iframe>
+</div>
+<details open>
+  <summary>자세히 보기</summary>
+  <p>펼쳐진 안내 글입니다.</p>
+  <button>안쪽 버튼</button>
+</details>
+<script>
+  customElements.define("x-card", class extends HTMLElement {
+    connectedCallback() {
+      const root = this.attachShadow({ mode: "open" });
+      root.innerHTML = "<style>div{border:1px solid #888;padding:12px;width:260px}</style><div><p>쉐도우 안의 글</p><button>쉐도우 버튼</button><slot></slot></div>";
+    }
+  });
+</script>
+</body>
+</html>

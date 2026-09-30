@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>내 파일 | 예시 드라이브</title>
+<style>
+  body { margin: 0; font-family: sans-serif; color: #222; }
+  header { padding: 12px 24px; border-bottom: 1px solid #ddd; }
+  main { padding: 24px; }
+  li { margin: 8px 0; }
+  /* 겉 틀(어두운 막)이 확인 대화상자를 품음 (MUI 꼴) — 가려진 곳을 짚으면 겉 틀이 나온다 */
+  .modal-root { position: fixed; inset: 0; background: rgba(0,0,0,0.4); }
+  /* 확인 대화상자: [취소][확인] — "확인"은 삭제한다는 대답이지 닫기가 아님 */
+  .confirm { position: absolute; top: 200px; left: 50%; width: 380px; margin-left: -190px; background: #fff; border-radius: 8px; padding: 24px; }
+  .confirm .actions { display: flex; gap: 12px; justify-content: flex-end; margin-top: 16px; }
+</style>
+</head>
+<body>
+<header><a href="/">예시 드라이브</a></header>
+<main>
+  <h1>내 파일</h1>
+  <ul>
+    <li><a href="/f/1">가족 사진 2026.zip</a> <button type="button">삭제</button></li>
+    <li><a href="/f/2">세금 서류.pdf</a> <button type="button">삭제</button></li>
+  </ul>
+</main>
+<div class="modal-root">
+<div class="confirm" role="alertdialog" aria-modal="true" aria-labelledby="c-title">
+  <h2 id="c-title">정말 삭제할까요?</h2>
+  <p>가족 사진 2026.zip을 지우면 되돌릴 수 없어요.</p>
+  <div class="actions">
+    <button type="button">취소</button>
+    <button type="button">확인</button>
+  </div>
+</div>
+</div>
+</body>
+</html>

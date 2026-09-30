@@ -1,0 +1,408 @@
+{
+ "capture": 1,
+ "no": 2,
+ "url": "gridfix://fixture/dashboard.html",
+ "title": "내 대시보드 | 예시 오피스",
+ "viewport": {
+  "w": 1280,
+  "h": 800
+ },
+ "page": {
+  "w": 1280,
+  "h": 800
+ },
+ "scroll": {
+  "x": 0,
+  "y": 0
+ },
+ "dpr": 1,
+ "items": [
+  {
+   "kind": "action",
+   "n": 1,
+   "role": "link",
+   "name": "홈",
+   "tag": "a",
+   "states": [],
+   "r": [
+    16,
+    145,
+    128,
+    35
+   ],
+   "region": 1,
+   "pin": "fixed",
+   "sc": null,
+   "href": "gridfix://fixture/home",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 2,
+   "role": "link",
+   "name": "통계",
+   "tag": "a",
+   "states": [],
+   "r": [
+    16,
+    102,
+    128,
+    35
+   ],
+   "region": 1,
+   "pin": "fixed",
+   "sc": null,
+   "href": "gridfix://fixture/stats",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 3,
+   "role": "link",
+   "name": "설정",
+   "tag": "a",
+   "states": [],
+   "r": [
+    16,
+    59,
+    128,
+    35
+   ],
+   "region": 1,
+   "pin": "fixed",
+   "sc": null,
+   "href": "gridfix://fixture/settings",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 4,
+   "role": "link",
+   "name": "도움말",
+   "tag": "a",
+   "states": [],
+   "r": [
+    16,
+    16,
+    128,
+    35
+   ],
+   "region": 1,
+   "pin": "fixed",
+   "sc": null,
+   "href": "gridfix://fixture/help",
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 1,
+   "text": "내 대시보드",
+   "level": 1,
+   "r": [
+    204,
+    45,
+    147,
+    39
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 6
+  },
+  {
+   "kind": "heading",
+   "t": 2,
+   "text": "알림",
+   "level": 2,
+   "r": [
+    757,
+    377,
+    42,
+    29
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 2
+  },
+  {
+   "kind": "text",
+   "t": 3,
+   "text": "새 알림 3개",
+   "r": [
+    757,
+    426,
+    72,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "action",
+   "n": 5,
+   "role": "button",
+   "name": "알림 모두 읽기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    757,
+    461,
+    93,
+    22
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 4,
+   "text": "날씨",
+   "level": 2,
+   "r": [
+    221,
+    377,
+    42,
+    29
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 2
+  },
+  {
+   "kind": "text",
+   "t": 5,
+   "text": "서울 맑음 21°C",
+   "r": [
+    221,
+    426,
+    92,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 10
+  },
+  {
+   "kind": "action",
+   "n": 6,
+   "role": "button",
+   "name": "날씨 새로고침",
+   "tag": "button",
+   "states": [],
+   "r": [
+    221,
+    461,
+    89,
+    22
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 6,
+   "text": "일정",
+   "level": 2,
+   "r": [
+    757,
+    143,
+    42,
+    29
+   ],
+   "region": 5,
+   "pin": null,
+   "sc": null,
+   "chars": 2
+  },
+  {
+   "kind": "text",
+   "t": 7,
+   "text": "오후 3시 회의",
+   "r": [
+    757,
+    192,
+    86,
+    19
+   ],
+   "region": 5,
+   "pin": null,
+   "sc": null,
+   "chars": 8
+  },
+  {
+   "kind": "action",
+   "n": 7,
+   "role": "button",
+   "name": "일정 추가",
+   "tag": "button",
+   "states": [],
+   "r": [
+    757,
+    227,
+    66,
+    22
+   ],
+   "region": 5,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 8,
+   "text": "메모",
+   "level": 2,
+   "r": [
+    221,
+    143,
+    42,
+    29
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "chars": 2
+  },
+  {
+   "kind": "text",
+   "t": 9,
+   "text": "장보기: 우유, 달걀",
+   "r": [
+    221,
+    192,
+    113,
+    19
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "chars": 11
+  },
+  {
+   "kind": "action",
+   "n": 8,
+   "role": "button",
+   "name": "메모 쓰기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    221,
+    227,
+    66,
+    22
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  }
+ ],
+ "regions": [
+  {
+   "id": 1,
+   "role": "navigation",
+   "name": "메뉴",
+   "r": [
+    0,
+    0,
+    160,
+    800
+   ],
+   "pin": "fixed",
+   "parent": null
+  },
+  {
+   "id": 2,
+   "role": "main",
+   "name": "",
+   "r": [
+    180,
+    0,
+    1100,
+    578
+   ],
+   "pin": null,
+   "parent": null
+  },
+  {
+   "id": 3,
+   "role": "region",
+   "name": "알림",
+   "r": [
+    740,
+    340,
+    516,
+    214
+   ],
+   "pin": null,
+   "parent": 2
+  },
+  {
+   "id": 4,
+   "role": "region",
+   "name": "날씨",
+   "r": [
+    204,
+    340,
+    516,
+    214
+   ],
+   "pin": null,
+   "parent": 2
+  },
+  {
+   "id": 5,
+   "role": "region",
+   "name": "일정",
+   "r": [
+    740,
+    106,
+    516,
+    214
+   ],
+   "pin": null,
+   "parent": 2
+  },
+  {
+   "id": 6,
+   "role": "region",
+   "name": "메모",
+   "r": [
+    204,
+    106,
+    516,
+    214
+   ],
+   "pin": null,
+   "parent": 2
+  }
+ ],
+ "scrollers": [],
+ "dropped": {
+  "aria-hidden": 0,
+  "tiny": 0,
+  "transparent": 0,
+  "sr-only": 0,
+  "offscreen": 0,
+  "low-contrast": 0,
+  "nameless": 0
+ },
+ "hiddenSamples": [],
+ "facts": {
+  "lang": "ko",
+  "types": [],
+  "og": {}
+ },
+ "visits": 61,
+ "truncated": false,
+ "ms": 3
+}

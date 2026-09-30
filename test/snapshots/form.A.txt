@@ -1,0 +1,22 @@
+GRID/1 · gridfix://fixture/form.html · "로그인 · 위젯 시험 | 예시"
+sheet A–L × 40px rows from page top · screen = 20 rows · page ≈ 1.0 screens (rows 1–20)
+view rows 1–20 (screen 1/1)
+checks: covered 0/10 tested · hidden text dropped 0
+▸ page
+  # t1 "로그인" @A2
+▸ form "로그인" @A3-E9
+  [1] textbox "이메일" =test@example.com @A4-C5
+  [2] textbox "비밀번호" =(filled) @A5-C6
+  [3] checkbox "로그인 상태 유지" (checked) @A6-A7
+  [4] button "로그인" @A7-D7
+  [5] link "비밀번호 찾기" @A8-D8
+▸ page
+  t2 "쉐도우 안의 글" @A10-B11
+  [6] button "쉐도우 버튼" @A11-B12
+  iframe t3 "같은 출처 프레임" @D10-G14
+  t4 "프레임 안의 글" @D10-E10
+  [7] button "프레임 버튼" @D11
+  [8] link "프레임 링크" @E11
+  [9] button "자세히 보기" (expanded) @A14-L15
+  t6 "펼쳐진 안내 글입니다." @A15-B16
+  [10] button "안쪽 버튼" @A16-A17

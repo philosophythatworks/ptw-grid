@@ -1,0 +1,105 @@
+GRID/1 · gridfix://fixture/shop.html · "무선 이어폰 X2 | 예시마켓"
+sheet A–L × 40px rows from page top · screen = 20 rows · page ≈ 4.4 screens (rows 1–89)
+view rows 1–20 (screen 1/5)
+facts (page metadata): product "무선 이어폰 X2 노이즈캔슬링" · 59000 KRW · InStock · og:type product
+checks: covered 8/61 tested · hidden text dropped 5
+⚠ O1 = popup aside "앱 광고" — covers 7 items (5 in view); close it with [67] first
+▸ pinned (stays on screen while scrolling)
+  [63] button "장바구니" @vA19-vF20
+  [64] button "구매하기" @vF19-vL20
+▸ pinned (stays on screen while scrolling) · aside "앱 광고"
+  t27 "앱에서 더 많은 혜택을" @vF12-vG12
+  t28 "앱 첫 구매 10% 추가 할인" @vF13-vG13
+  [65] button "앱으로 보기" @vF14-vG14
+  [66] button "모바일웹으로 볼게요" @vG14-vH14
+  [67] button "닫기" @vK12
+▸ header @A1-L2
+  [1] link "예시마켓" (sticky) @A1-A2
+  [2] button "~메뉴" (sticky) @A1-B2
+  [3] searchbox "검색어를 입력하세요" (sticky) =(empty) @B1-F2
+  [4] button "검색" (sticky) @F1-F2
+  [5] link "장바구니 0" (sticky) @L1-L2
+▸ nav "카테고리" @A2-L3
+  [6] link "디지털" @A2-A3
+  [7] link "가전" @A2-A3
+  [8] link "패션" @B2-B3
+  [9] link "뷰티" @B2-B3
+  [10] link "식품" @B2-B3
+  [11] link "생활" @C2-C3
+  [12] link "스포츠" @C2-C3
+  [13] link "도서" @C2-D3
+  ⋯ 7 more links here (positions not shown): [14 완구] [15 반려동물] [16 자동차] [17 여행] [18 특가] [19 베스트] [20 신상품]
+▸ main @A3-L84
+  img t1 "(no alt)" ⚠ no text — info may be only in the image @A4-F16
+  t2 "디지털 › 음향기기 › 이어폰" @F4-G4
+  # t3 "무선 이어폰 X2 노이즈캔슬링" @F4-I5
+  [21] link "★4.6 리뷰 2,318" @F5-G6
+  t5 "~~89,000원~~ 59,000원 34%" @F6-H7
+  t6 "쿠폰 적용 시 53,100원" @F8-G9
+  [22] button "쿠폰 받기" (covered by an invisible link to ads.example.com ⚠) @H8-H9
+  t7 "무료배송 · 10/2(목) 도착 예정" @F9-H9
+  [23] select "색상" (required) =선택하세요 · 선택하세요/블랙/화이트/네이비 @F11-L11
+  [24] button "수량 빼기" (disabled, covered by O1) @F12-F13
+  [25] spinbutton "수량" (covered by O1) =1 @G12-G13
+  [26] button "수량 더하기" (covered by O1) @G12-H13
+  [27] button "장바구니 담기" (covered by O1) @F13-I14
+  [28] button "바로 구매" (covered by O1) @I13-L14
+  [29] tab "상품정보" (selected) @A17-B18
+  [30] tab "리뷰 2,318" @B17-C18
+  [31] tab "문의 45" @C17-D18
+  [32] tab "배송/교환" @D17-E18
+▸ section "상세정보" @A19-L68
+  # t8 "상세정보" @A19-B19
+  t9 "X2는 하이브리드 노이즈캔슬링과 최대 30시간 재생을 지원합니다. 방수 등급 IPX5." @A20-F20
+  ── screen 2 · rows 21–40 ──
+  img t10 "(no alt)" ⚠ no text — info may be only in the image @B21-K36
+  img t11 "(no alt)" ⚠ no text — info may be only in the image @B37-K52
+  ── screen 3 · rows 41–60 ──
+  img t12 "(no alt)" ⚠ no text — info may be only in the image @B53-K68
+▸ section "리뷰" @A69-L77
+  ── screen 4 · rows 61–80 ──
+  # t13 "리뷰 2,318" @A69-B69
+  ⤷ scroll box S1 scrolls by itself (up/down, shows 298 of 446px) @A70-L77
+  t14 "★★★★★ 소리가 좋아요" @A70-C71
+  [33] button "도움돼요 12" @C70-D71
+  t15 "★★★★☆ 배터리 오래가요" @A72-C72
+  [34] button "도움돼요 8" @C72-D72
+  t16 "★★★★★ 노캔 최고" @A73-C73
+  [35] button "도움돼요 30" @C73-D73
+  t17 "★★★☆☆ 귀가 조금 아파요" @A74-C74
+  [36] button "도움돼요 2" @C74-D74
+  t18 "★★★★★ 선물용으로 샀어요" @A75-C75
+  [37] button "도움돼요 5" @C75-D75
+  t19 "★★★★☆ 연결이 빨라요" @A76-C76
+  [38] button "도움돼요 4" @C76-D76
+  t20 "★★★★★ 통화 품질 좋음" @A77-C77
+  [39] button "도움돼요 9" @C77-D77
+  t21 "★★☆☆☆ 케이스가 약해요"
+  [40] button "도움돼요 1" (hidden in scroll box S1 — scroll it)
+  t22 "★★★★★ 가성비"
+  [41] button "도움돼요 6" (hidden in scroll box S1 — scroll it)
+  t23 "★★★★★ 재구매 의사 있어요"
+  [42] button "도움돼요 3" (hidden in scroll box S1 — scroll it)
+▸ section "함께 본 상품" @A78-L84
+  # t24 "함께 본 상품" @A78-B79
+  ⤷ scroll box S2 scrolls by itself (sideways, shows 1100 of 2004px) @A79-L84
+  [43] link "충전 케이스 커버 9,900원" @A79-D83
+  [44] link "이어팁 세트 6,500원" @D79-F83
+  [45] link "무선 충전기 19,000원" (covered by O1) @F79-H83
+  [46] link "블루투스 스피커 39,000원" (covered by O1) @H79-K83
+  [47] link "헤드폰 H1 129,000원" @K79-L83
+  [48] link "케이블 3,900원" (hidden in scroll box S2 — scroll it)
+  [49] link "파우치 7,900원" (hidden in scroll box S2 — scroll it)
+  [50] link "넥밴드 N3 45,000원" (hidden in scroll box S2 — scroll it)
+▸ footer @A84-L89
+  ── screen 5 · rows 81–100 ──
+  [51] link "회사소개" @A85
+  [52] link "이용약관" @A85-B85
+  [53] link "개인정보처리방침" @B85
+  [54] link "고객센터" @C85
+  [55] link "입점문의" @C85
+  [56] link "제휴" @D85
+  [57] link "채용" @D85
+  [58] link "공지" @D85
+  t26 "(주)예시마켓 · 대표 홍길동 · 사업자등록번호 000-00-00000" @A86-D86
+  ⋯ 4 more links here (positions not shown): [59 이벤트] [60 앱 다운로드] [61 사이트맵] [62 IR]

@@ -1,0 +1,2748 @@
+{
+ "capture": 1,
+ "no": 2,
+ "url": "gridfix://fixture/feed.html",
+ "title": "끝없는 목록 시험 | 예시",
+ "viewport": {
+  "w": 1280,
+  "h": 800
+ },
+ "page": {
+  "w": 1280,
+  "h": 8024
+ },
+ "scroll": {
+  "x": 0,
+  "y": 0
+ },
+ "dpr": 1,
+ "items": [
+  {
+   "kind": "text",
+   "t": 1,
+   "text": "예시 피드",
+   "r": [
+    20,
+    18,
+    56,
+    18
+   ],
+   "region": 1,
+   "pin": "fixed",
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 1,
+   "role": "link",
+   "name": "새 글",
+   "tag": "a",
+   "states": [],
+   "r": [
+    88,
+    18,
+    30,
+    20
+   ],
+   "region": 1,
+   "pin": "fixed",
+   "sc": null,
+   "href": "gridfix://fixture/new",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 2,
+   "role": "button",
+   "name": "알림",
+   "tag": "button",
+   "states": [],
+   "r": [
+    129,
+    14,
+    33,
+    28
+   ],
+   "region": 1,
+   "pin": "fixed",
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 2,
+   "text": "글 1",
+   "level": 3,
+   "r": [
+    248,
+    117,
+    28,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 3
+  },
+  {
+   "kind": "text",
+   "t": 3,
+   "text": "내용 1",
+   "r": [
+    248,
+    156,
+    37,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "action",
+   "n": 3,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    191,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 4,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    191,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/1",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 4,
+   "text": "⟦4|자세히⟧",
+   "r": [
+    302,
+    191,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    4
+   ],
+   "chars": 7,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 5,
+   "text": "글 2",
+   "level": 3,
+   "r": [
+    248,
+    381,
+    30,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 3
+  },
+  {
+   "kind": "text",
+   "t": 6,
+   "text": "내용 2",
+   "r": [
+    248,
+    420,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "action",
+   "n": 5,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    455,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 6,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    455,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/2",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 7,
+   "text": "⟦6|자세히⟧",
+   "r": [
+    302,
+    455,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    6
+   ],
+   "chars": 7,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 8,
+   "text": "글 3",
+   "level": 3,
+   "r": [
+    248,
+    645,
+    31,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 3
+  },
+  {
+   "kind": "text",
+   "t": 9,
+   "text": "내용 3",
+   "r": [
+    248,
+    684,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "action",
+   "n": 7,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    719,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 8,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    719,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/3",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 10,
+   "text": "⟦8|자세히⟧",
+   "r": [
+    302,
+    719,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    8
+   ],
+   "chars": 7,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 11,
+   "text": "글 4",
+   "level": 3,
+   "r": [
+    248,
+    909,
+    31,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 3
+  },
+  {
+   "kind": "text",
+   "t": 12,
+   "text": "내용 4",
+   "r": [
+    248,
+    948,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "action",
+   "n": 9,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    983,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 10,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    983,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/4",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 13,
+   "text": "⟦10|자세히⟧",
+   "r": [
+    302,
+    983,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    10
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 14,
+   "text": "글 5",
+   "level": 3,
+   "r": [
+    248,
+    1173,
+    30,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 3
+  },
+  {
+   "kind": "text",
+   "t": 15,
+   "text": "내용 5",
+   "r": [
+    248,
+    1212,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "action",
+   "n": 11,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    1247,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 12,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    1247,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/5",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 16,
+   "text": "⟦12|자세히⟧",
+   "r": [
+    302,
+    1247,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    12
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 17,
+   "text": "글 6",
+   "level": 3,
+   "r": [
+    248,
+    1437,
+    31,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 3
+  },
+  {
+   "kind": "text",
+   "t": 18,
+   "text": "내용 6",
+   "r": [
+    248,
+    1476,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "action",
+   "n": 13,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    1511,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 14,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    1511,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/6",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 19,
+   "text": "⟦14|자세히⟧",
+   "r": [
+    302,
+    1511,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    14
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 20,
+   "text": "글 7",
+   "level": 3,
+   "r": [
+    248,
+    1701,
+    29,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 3
+  },
+  {
+   "kind": "text",
+   "t": 21,
+   "text": "내용 7",
+   "r": [
+    248,
+    1740,
+    38,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "action",
+   "n": 15,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    1775,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 16,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    1775,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/7",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 22,
+   "text": "⟦16|자세히⟧",
+   "r": [
+    302,
+    1775,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    16
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 23,
+   "text": "글 8",
+   "level": 3,
+   "r": [
+    248,
+    1965,
+    31,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 3
+  },
+  {
+   "kind": "text",
+   "t": 24,
+   "text": "내용 8",
+   "r": [
+    248,
+    2004,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "action",
+   "n": 17,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    2039,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 18,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    2039,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/8",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 25,
+   "text": "⟦18|자세히⟧",
+   "r": [
+    302,
+    2039,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    18
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 26,
+   "text": "글 9",
+   "level": 3,
+   "r": [
+    248,
+    2229,
+    31,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 3
+  },
+  {
+   "kind": "text",
+   "t": 27,
+   "text": "내용 9",
+   "r": [
+    248,
+    2268,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "action",
+   "n": 19,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    2303,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 20,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    2303,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/9",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 28,
+   "text": "⟦20|자세히⟧",
+   "r": [
+    302,
+    2303,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    20
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 29,
+   "text": "글 10",
+   "level": 3,
+   "r": [
+    248,
+    2493,
+    39,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 30,
+   "text": "내용 10",
+   "r": [
+    248,
+    2532,
+    46,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 21,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    2567,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 22,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    2567,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/10",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 31,
+   "text": "⟦22|자세히⟧",
+   "r": [
+    302,
+    2567,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    22
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 32,
+   "text": "글 11",
+   "level": 3,
+   "r": [
+    248,
+    2757,
+    36,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 33,
+   "text": "내용 11",
+   "r": [
+    248,
+    2796,
+    43,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 24,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    2831,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 25,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    2831,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/11",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 34,
+   "text": "⟦25|자세히⟧",
+   "r": [
+    302,
+    2831,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    25
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 35,
+   "text": "글 12",
+   "level": 3,
+   "r": [
+    248,
+    3021,
+    39,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 36,
+   "text": "내용 12",
+   "r": [
+    248,
+    3060,
+    45,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 26,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    3095,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 27,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    3095,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/12",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 37,
+   "text": "⟦27|자세히⟧",
+   "r": [
+    302,
+    3095,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    27
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 38,
+   "text": "글 13",
+   "level": 3,
+   "r": [
+    248,
+    3285,
+    39,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 39,
+   "text": "내용 13",
+   "r": [
+    248,
+    3324,
+    46,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 28,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    3359,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 29,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    3359,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/13",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 40,
+   "text": "⟦29|자세히⟧",
+   "r": [
+    302,
+    3359,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    29
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 41,
+   "text": "글 14",
+   "level": 3,
+   "r": [
+    248,
+    3549,
+    39,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 42,
+   "text": "내용 14",
+   "r": [
+    248,
+    3588,
+    46,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 30,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    3623,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 31,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    3623,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/14",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 43,
+   "text": "⟦31|자세히⟧",
+   "r": [
+    302,
+    3623,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    31
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 44,
+   "text": "글 15",
+   "level": 3,
+   "r": [
+    248,
+    3813,
+    39,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 45,
+   "text": "내용 15",
+   "r": [
+    248,
+    3852,
+    46,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 32,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    3887,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 33,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    3887,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/15",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 46,
+   "text": "⟦33|자세히⟧",
+   "r": [
+    302,
+    3887,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    33
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 47,
+   "text": "글 16",
+   "level": 3,
+   "r": [
+    248,
+    4077,
+    39,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 48,
+   "text": "내용 16",
+   "r": [
+    248,
+    4116,
+    46,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 34,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    4151,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 35,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    4151,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/16",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 49,
+   "text": "⟦35|자세히⟧",
+   "r": [
+    302,
+    4151,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    35
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 50,
+   "text": "글 17",
+   "level": 3,
+   "r": [
+    248,
+    4341,
+    38,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 51,
+   "text": "내용 17",
+   "r": [
+    248,
+    4380,
+    45,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 36,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    4415,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 37,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    4415,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/17",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 52,
+   "text": "⟦37|자세히⟧",
+   "r": [
+    302,
+    4415,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    37
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 53,
+   "text": "글 18",
+   "level": 3,
+   "r": [
+    248,
+    4605,
+    39,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 54,
+   "text": "내용 18",
+   "r": [
+    248,
+    4644,
+    46,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 38,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    4679,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 39,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    4679,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/18",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 55,
+   "text": "⟦39|자세히⟧",
+   "r": [
+    302,
+    4679,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    39
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 56,
+   "text": "글 19",
+   "level": 3,
+   "r": [
+    248,
+    4869,
+    39,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 57,
+   "text": "내용 19",
+   "r": [
+    248,
+    4908,
+    46,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 40,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    4943,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 41,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    4943,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/19",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 58,
+   "text": "⟦41|자세히⟧",
+   "r": [
+    302,
+    4943,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    41
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 59,
+   "text": "글 20",
+   "level": 3,
+   "r": [
+    248,
+    5133,
+    42,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 60,
+   "text": "내용 20",
+   "r": [
+    248,
+    5172,
+    48,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 42,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    5207,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 43,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    5207,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/20",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 61,
+   "text": "⟦43|자세히⟧",
+   "r": [
+    302,
+    5207,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    43
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 62,
+   "text": "글 21",
+   "level": 3,
+   "r": [
+    248,
+    5397,
+    39,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 63,
+   "text": "내용 21",
+   "r": [
+    248,
+    5436,
+    45,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 44,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    5471,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 45,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    5471,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/21",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 64,
+   "text": "⟦45|자세히⟧",
+   "r": [
+    302,
+    5471,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    45
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 65,
+   "text": "글 22",
+   "level": 3,
+   "r": [
+    248,
+    5661,
+    41,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 66,
+   "text": "내용 22",
+   "r": [
+    248,
+    5700,
+    48,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 46,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    5735,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 47,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    5735,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/22",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 67,
+   "text": "⟦47|자세히⟧",
+   "r": [
+    302,
+    5735,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    47
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 68,
+   "text": "글 23",
+   "level": 3,
+   "r": [
+    248,
+    5925,
+    41,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 69,
+   "text": "내용 23",
+   "r": [
+    248,
+    5964,
+    48,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 48,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    5999,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 49,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    5999,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/23",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 70,
+   "text": "⟦49|자세히⟧",
+   "r": [
+    302,
+    5999,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    49
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 71,
+   "text": "글 24",
+   "level": 3,
+   "r": [
+    248,
+    6189,
+    42,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 72,
+   "text": "내용 24",
+   "r": [
+    248,
+    6228,
+    48,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 50,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    6263,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 51,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    6263,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/24",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 73,
+   "text": "⟦51|자세히⟧",
+   "r": [
+    302,
+    6263,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    51
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 74,
+   "text": "글 25",
+   "level": 3,
+   "r": [
+    248,
+    6453,
+    41,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 75,
+   "text": "내용 25",
+   "r": [
+    248,
+    6492,
+    48,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 52,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    6527,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 53,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    6527,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/25",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 76,
+   "text": "⟦53|자세히⟧",
+   "r": [
+    302,
+    6527,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    53
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 77,
+   "text": "글 26",
+   "level": 3,
+   "r": [
+    248,
+    6717,
+    42,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 78,
+   "text": "내용 26",
+   "r": [
+    248,
+    6756,
+    48,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 54,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    6791,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 55,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    6791,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/26",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 79,
+   "text": "⟦55|자세히⟧",
+   "r": [
+    302,
+    6791,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    55
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 80,
+   "text": "글 27",
+   "level": 3,
+   "r": [
+    248,
+    6981,
+    40,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 81,
+   "text": "내용 27",
+   "r": [
+    248,
+    7020,
+    47,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 56,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    7055,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 57,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    7055,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/27",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 82,
+   "text": "⟦57|자세히⟧",
+   "r": [
+    302,
+    7055,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    57
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 83,
+   "text": "글 28",
+   "level": 3,
+   "r": [
+    248,
+    7245,
+    42,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 84,
+   "text": "내용 28",
+   "r": [
+    248,
+    7284,
+    48,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 58,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    7319,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 59,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    7319,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/28",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 85,
+   "text": "⟦59|자세히⟧",
+   "r": [
+    302,
+    7319,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    59
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 86,
+   "text": "글 29",
+   "level": 3,
+   "r": [
+    248,
+    7509,
+    42,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 87,
+   "text": "내용 29",
+   "r": [
+    248,
+    7548,
+    48,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 60,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    7583,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 61,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    7583,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/29",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 88,
+   "text": "⟦61|자세히⟧",
+   "r": [
+    302,
+    7583,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    61
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 89,
+   "text": "글 30",
+   "level": 3,
+   "r": [
+    248,
+    7773,
+    42,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 90,
+   "text": "내용 30",
+   "r": [
+    248,
+    7812,
+    48,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "action",
+   "n": 62,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    248,
+    7847,
+    51,
+    22
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": null
+  },
+  {
+   "kind": "action",
+   "n": 63,
+   "role": "link",
+   "name": "자세히",
+   "tag": "a",
+   "states": [],
+   "r": [
+    302,
+    7847,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/p/30",
+   "hit": null
+  },
+  {
+   "kind": "text",
+   "t": 91,
+   "text": "⟦63|자세히⟧",
+   "r": [
+    302,
+    7847,
+    39,
+    18
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    63
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 23,
+   "role": "button",
+   "name": "맨 위로",
+   "tag": "button",
+   "states": [],
+   "r": [
+    1197,
+    732,
+    48,
+    48
+   ],
+   "region": null,
+   "pin": "fixed",
+   "sc": null,
+   "hit": true
+  }
+ ],
+ "regions": [
+  {
+   "id": 1,
+   "role": "banner",
+   "name": "",
+   "r": [
+    0,
+    0,
+    1265,
+    57
+   ],
+   "pin": "fixed",
+   "parent": null
+  },
+  {
+   "id": 2,
+   "role": "main",
+   "name": "",
+   "r": [
+    213,
+    0,
+    840,
+    8024
+   ],
+   "pin": null,
+   "parent": null
+  }
+ ],
+ "scrollers": [],
+ "dropped": {
+  "aria-hidden": 0,
+  "tiny": 0,
+  "transparent": 0,
+  "sr-only": 0,
+  "offscreen": 0,
+  "low-contrast": 0,
+  "nameless": 0
+ },
+ "hiddenSamples": [],
+ "facts": {
+  "lang": "ko",
+  "types": [],
+  "og": {}
+ },
+ "visits": 320,
+ "truncated": false,
+ "ms": 12
+}

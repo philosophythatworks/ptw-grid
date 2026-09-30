@@ -1,0 +1,958 @@
+{
+ "capture": 1,
+ "no": 2,
+ "url": "gridfix://fixture/catalog.html",
+ "title": "제철 과일 | 예시몰",
+ "viewport": {
+  "w": 1280,
+  "h": 800
+ },
+ "page": {
+  "w": 1280,
+  "h": 800
+ },
+ "scroll": {
+  "x": 0,
+  "y": 0
+ },
+ "dpr": 1,
+ "items": [
+  {
+   "kind": "action",
+   "n": 1,
+   "role": "link",
+   "name": "예시몰",
+   "tag": "a",
+   "states": [],
+   "r": [
+    24,
+    16,
+    57,
+    27
+   ],
+   "region": 1,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 2,
+   "role": "searchbox",
+   "name": "상품 검색",
+   "tag": "input",
+   "states": [],
+   "r": [
+    97,
+    12,
+    1034,
+    35
+   ],
+   "region": 1,
+   "pin": null,
+   "sc": null,
+   "value": "(empty)",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 3,
+   "role": "link",
+   "name": "로그인",
+   "tag": "a",
+   "states": [],
+   "r": [
+    1147,
+    20,
+    42,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/login",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 4,
+   "role": "link",
+   "name": "장바구니",
+   "tag": "a",
+   "states": [],
+   "r": [
+    1201,
+    20,
+    55,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/cart",
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 1,
+   "text": "필터",
+   "level": 2,
+   "r": [
+    1029,
+    117,
+    42,
+    29
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 2
+  },
+  {
+   "kind": "heading",
+   "t": 2,
+   "text": "가격대",
+   "level": 3,
+   "r": [
+    1029,
+    166,
+    49,
+    23
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 3
+  },
+  {
+   "kind": "action",
+   "n": 5,
+   "role": "checkbox",
+   "name": "1만 원 이하",
+   "tag": "input",
+   "states": [],
+   "r": [
+    1033,
+    211,
+    13,
+    13
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 6,
+   "role": "checkbox",
+   "name": "1만~3만 원",
+   "tag": "input",
+   "states": [],
+   "r": [
+    1033,
+    232,
+    13,
+    13
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 7,
+   "role": "checkbox",
+   "name": "3만 원 이상",
+   "tag": "input",
+   "states": [],
+   "r": [
+    1033,
+    253,
+    13,
+    13
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 3,
+   "text": "원산지",
+   "level": 3,
+   "r": [
+    1029,
+    289,
+    49,
+    23
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 3
+  },
+  {
+   "kind": "action",
+   "n": 8,
+   "role": "checkbox",
+   "name": "국내산",
+   "tag": "input",
+   "states": [],
+   "r": [
+    1033,
+    334,
+    13,
+    13
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 9,
+   "role": "checkbox",
+   "name": "수입",
+   "tag": "input",
+   "states": [],
+   "r": [
+    1033,
+    355,
+    13,
+    13
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 10,
+   "role": "button",
+   "name": "필터 적용",
+   "tag": "button",
+   "states": [],
+   "r": [
+    1029,
+    389,
+    66,
+    22
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 4,
+   "text": "제철 과일",
+   "level": 1,
+   "r": [
+    24,
+    105,
+    119,
+    39
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "heading",
+   "t": 5,
+   "text": "사과 1kg",
+   "level": 3,
+   "r": [
+    37,
+    247,
+    55,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 6
+  },
+  {
+   "kind": "text",
+   "t": 6,
+   "text": "12,900원",
+   "r": [
+    37,
+    270,
+    60,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "action",
+   "n": 11,
+   "role": "button",
+   "name": "담기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    37,
+    293,
+    39,
+    22
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 7,
+   "text": "배 2kg",
+   "level": 3,
+   "r": [
+    37,
+    421,
+    43,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "text",
+   "t": 8,
+   "text": "18,500원",
+   "r": [
+    37,
+    444,
+    60,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "action",
+   "n": 12,
+   "role": "button",
+   "name": "담기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    37,
+    467,
+    39,
+    22
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 9,
+   "text": "귤 3kg",
+   "level": 3,
+   "r": [
+    37,
+    595,
+    43,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "text",
+   "t": 10,
+   "text": "15,800원",
+   "r": [
+    37,
+    618,
+    60,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "action",
+   "n": 13,
+   "role": "button",
+   "name": "담기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    37,
+    641,
+    39,
+    22
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 11,
+   "text": "포도 1.5kg",
+   "level": 3,
+   "r": [
+    283,
+    247,
+    67,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 8
+  },
+  {
+   "kind": "text",
+   "t": 12,
+   "text": "21,000원",
+   "r": [
+    283,
+    270,
+    61,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "action",
+   "n": 14,
+   "role": "button",
+   "name": "담기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    283,
+    293,
+    39,
+    22
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 13,
+   "text": "딸기 500g",
+   "level": 3,
+   "r": [
+    283,
+    421,
+    69,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "text",
+   "t": 14,
+   "text": "9,900원",
+   "r": [
+    283,
+    444,
+    54,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 6
+  },
+  {
+   "kind": "action",
+   "n": 15,
+   "role": "button",
+   "name": "담기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    283,
+    467,
+    39,
+    22
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 15,
+   "text": "수박 1통",
+   "level": 3,
+   "r": [
+    283,
+    595,
+    52,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "text",
+   "t": 16,
+   "text": "24,900원",
+   "r": [
+    283,
+    618,
+    63,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "action",
+   "n": 16,
+   "role": "button",
+   "name": "담기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    283,
+    641,
+    39,
+    22
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 17,
+   "text": "참외 2kg",
+   "level": 3,
+   "r": [
+    529,
+    247,
+    57,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 6
+  },
+  {
+   "kind": "text",
+   "t": 18,
+   "text": "16,400원",
+   "r": [
+    529,
+    270,
+    60,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "action",
+   "n": 17,
+   "role": "button",
+   "name": "담기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    529,
+    293,
+    39,
+    22
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 19,
+   "text": "복숭아 1.5kg",
+   "level": 3,
+   "r": [
+    529,
+    421,
+    81,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 9
+  },
+  {
+   "kind": "text",
+   "t": 20,
+   "text": "27,500원",
+   "r": [
+    529,
+    444,
+    60,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "action",
+   "n": 18,
+   "role": "button",
+   "name": "담기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    529,
+    467,
+    39,
+    22
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 21,
+   "text": "자두 1kg",
+   "level": 3,
+   "r": [
+    529,
+    595,
+    55,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 6
+  },
+  {
+   "kind": "text",
+   "t": 22,
+   "text": "11,200원",
+   "r": [
+    529,
+    618,
+    57,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "action",
+   "n": 19,
+   "role": "button",
+   "name": "담기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    529,
+    641,
+    39,
+    22
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 23,
+   "text": "망고 4개",
+   "level": 3,
+   "r": [
+    775,
+    247,
+    55,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "text",
+   "t": 24,
+   "text": "19,900원",
+   "r": [
+    775,
+    270,
+    60,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "action",
+   "n": 20,
+   "role": "button",
+   "name": "담기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    775,
+    293,
+    39,
+    22
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 25,
+   "text": "키위 1kg",
+   "level": 3,
+   "r": [
+    775,
+    421,
+    55,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 6
+  },
+  {
+   "kind": "text",
+   "t": 26,
+   "text": "8,700원",
+   "r": [
+    775,
+    444,
+    54,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 6
+  },
+  {
+   "kind": "action",
+   "n": 21,
+   "role": "button",
+   "name": "담기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    775,
+    467,
+    39,
+    22
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 27,
+   "text": "블루베리 300g",
+   "level": 3,
+   "r": [
+    775,
+    595,
+    97,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 9
+  },
+  {
+   "kind": "text",
+   "t": 28,
+   "text": "13,300원",
+   "r": [
+    775,
+    618,
+    60,
+    19
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "action",
+   "n": 22,
+   "role": "button",
+   "name": "담기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    775,
+    641,
+    39,
+    22
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 29,
+   "text": "예시몰 · 고객센터 1588-0000",
+   "r": [
+    24,
+    721,
+    194,
+    19
+   ],
+   "region": 5,
+   "pin": null,
+   "sc": null,
+   "chars": 20
+  }
+ ],
+ "regions": [
+  {
+   "id": 1,
+   "role": "banner",
+   "name": "",
+   "r": [
+    0,
+    0,
+    1280,
+    60
+   ],
+   "pin": null,
+   "parent": null
+  },
+  {
+   "id": 2,
+   "role": "navigation",
+   "name": "내 메뉴",
+   "r": [
+    1147,
+    20,
+    109,
+    19
+   ],
+   "pin": null,
+   "parent": 1
+  },
+  {
+   "id": 3,
+   "role": "complementary",
+   "name": "필터",
+   "r": [
+    1016,
+    84,
+    240,
+    588
+   ],
+   "pin": null,
+   "parent": null
+  },
+  {
+   "id": 4,
+   "role": "main",
+   "name": "",
+   "r": [
+    24,
+    84,
+    968,
+    588
+   ],
+   "pin": null,
+   "parent": null
+  },
+  {
+   "id": 5,
+   "role": "contentinfo",
+   "name": "",
+   "r": [
+    0,
+    696,
+    1280,
+    68
+   ],
+   "pin": null,
+   "parent": null
+  }
+ ],
+ "scrollers": [],
+ "dropped": {
+  "aria-hidden": 0,
+  "tiny": 0,
+  "transparent": 0,
+  "sr-only": 0,
+  "offscreen": 0,
+  "low-contrast": 0,
+  "nameless": 0
+ },
+ "hiddenSamples": [],
+ "facts": {
+  "lang": "ko",
+  "types": [],
+  "og": {}
+ },
+ "visits": 181,
+ "truncated": false,
+ "ms": 3
+}

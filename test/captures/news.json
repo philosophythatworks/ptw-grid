@@ -1,0 +1,1588 @@
+{
+ "capture": 1,
+ "no": 2,
+ "url": "gridfix://fixture/news.html",
+ "title": "9호선 연장 구간 10월 개통 확정 - 예시일보",
+ "viewport": {
+  "w": 1280,
+  "h": 800
+ },
+ "page": {
+  "w": 1280,
+  "h": 1816
+ },
+ "scroll": {
+  "x": 0,
+  "y": 0
+ },
+ "dpr": 1,
+ "items": [
+  {
+   "kind": "action",
+   "n": 1,
+   "role": "link",
+   "name": "예시일보",
+   "tag": "a",
+   "states": [],
+   "r": [
+    24,
+    15,
+    69,
+    23
+   ],
+   "region": 1,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 1,
+   "text": "⟦1|예시일보⟧",
+   "r": [
+    24,
+    15,
+    69,
+    23
+   ],
+   "region": 1,
+   "pin": "sticky",
+   "sc": null,
+   "links": [
+    1
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 2,
+   "role": "link",
+   "name": "정치",
+   "tag": "a",
+   "states": [],
+   "r": [
+    24,
+    49,
+    24,
+    17
+   ],
+   "region": 2,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/s/politics",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 2,
+   "text": "⟦2|정치⟧ ⟦3|경제⟧ ⟦4|사회⟧ ⟦5|국제⟧ ⟦6|문화⟧ ⟦7|스포츠⟧ ⟦8|IT⟧ ⟦9|오피니언⟧ ⟦10|사람들⟧ ⟦11|포토⟧ ⟦12|영상⟧ ⟦13|날씨⟧",
+   "r": [
+    24,
+    49,
+    459,
+    17
+   ],
+   "region": 2,
+   "pin": "sticky",
+   "sc": null,
+   "links": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "chars": 91,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 3,
+   "role": "link",
+   "name": "경제",
+   "tag": "a",
+   "states": [],
+   "r": [
+    60,
+    49,
+    24,
+    17
+   ],
+   "region": 2,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/s/economy",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 4,
+   "role": "link",
+   "name": "사회",
+   "tag": "a",
+   "states": [],
+   "r": [
+    96,
+    49,
+    24,
+    17
+   ],
+   "region": 2,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/s/society",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 5,
+   "role": "link",
+   "name": "국제",
+   "tag": "a",
+   "states": [],
+   "r": [
+    133,
+    49,
+    24,
+    17
+   ],
+   "region": 2,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/s/world",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 6,
+   "role": "link",
+   "name": "문화",
+   "tag": "a",
+   "states": [],
+   "r": [
+    169,
+    49,
+    24,
+    17
+   ],
+   "region": 2,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/s/culture",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 7,
+   "role": "link",
+   "name": "스포츠",
+   "tag": "a",
+   "states": [],
+   "r": [
+    205,
+    49,
+    36,
+    17
+   ],
+   "region": 2,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/s/sports",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 8,
+   "role": "link",
+   "name": "IT",
+   "tag": "a",
+   "states": [],
+   "r": [
+    254,
+    49,
+    12,
+    17
+   ],
+   "region": 2,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/s/it",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 9,
+   "role": "link",
+   "name": "오피니언",
+   "tag": "a",
+   "states": [],
+   "r": [
+    278,
+    49,
+    48,
+    17
+   ],
+   "region": 2,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/s/opinion",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 10,
+   "role": "link",
+   "name": "사람들",
+   "tag": "a",
+   "states": [],
+   "r": [
+    338,
+    49,
+    36,
+    17
+   ],
+   "region": 2,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/s/people",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 11,
+   "role": "link",
+   "name": "포토",
+   "tag": "a",
+   "states": [],
+   "r": [
+    387,
+    49,
+    24,
+    17
+   ],
+   "region": 2,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/s/photo",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 12,
+   "role": "link",
+   "name": "영상",
+   "tag": "a",
+   "states": [],
+   "r": [
+    423,
+    49,
+    24,
+    17
+   ],
+   "region": 2,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/s/video",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 13,
+   "role": "link",
+   "name": "날씨",
+   "tag": "a",
+   "states": [],
+   "r": [
+    459,
+    49,
+    24,
+    17
+   ],
+   "region": 2,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/s/weather",
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 3,
+   "text": "서울 지하철 9호선 연장 구간, 10월 개통 확정",
+   "level": 1,
+   "r": [
+    53,
+    124,
+    520,
+    35
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 27
+  },
+  {
+   "kind": "text",
+   "t": 4,
+   "text": "입력 2026.09.30 09:12 · 수정 10:40 · 김예시 기자",
+   "r": [
+    53,
+    187,
+    276,
+    16
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 39
+  },
+  {
+   "kind": "action",
+   "n": 14,
+   "role": "link",
+   "name": "기자 구독",
+   "tag": "a",
+   "states": [],
+   "r": [
+    338,
+    184,
+    49,
+    22
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/reporter/kim",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 15,
+   "role": "button",
+   "name": "공유",
+   "tag": "button",
+   "states": [],
+   "r": [
+    397,
+    181,
+    28,
+    28
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 16,
+   "role": "button",
+   "name": "가",
+   "tag": "button",
+   "states": [],
+   "r": [
+    435,
+    181,
+    28,
+    28
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "media",
+   "t": 5,
+   "role": "img",
+   "name": "개통을 앞둔 연장 구간 역사 내부",
+   "r": [
+    93,
+    225,
+    740,
+    420
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null
+  },
+  {
+   "kind": "text",
+   "t": 6,
+   "text": "개통을 앞둔 연장 구간 역사 내부 (사진=예시일보)",
+   "r": [
+    93,
+    649,
+    309,
+    18
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 28
+  },
+  {
+   "kind": "text",
+   "t": 7,
+   "text": "서울 지하철 9호선 4단계 연장 구간이 다음 달 개통한다. 서울시는 30일 종합 시운전을 마치고 10월 중순 영업 운행을 시작한다고 밝혔다.",
+   "r": [
+    53,
+    695,
+    818,
+    45
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 78
+  },
+  {
+   "kind": "text",
+   "t": 8,
+   "text": "연장 구간은 중앙보훈병원역에서 고덕강일1지구까지 4.1km이며 정거장 4곳이 새로 생긴다. 출퇴근 시간 배차 간격은 4분으로 계획됐다.",
+   "r": [
+    53,
+    767,
+    811,
+    45
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 75
+  },
+  {
+   "kind": "text",
+   "t": 9,
+   "text": "시는 개통 초기 혼잡에 대비해 급행 열차를 하루 20회 늘리고 역마다 안전요원을 배치할 예정이다.",
+   "r": [
+    53,
+    839,
+    604,
+    18
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 54
+  },
+  {
+   "kind": "text",
+   "t": 10,
+   "text": "인근 주민들은 강남 방면 통근 시간이 최대 20분 줄어들 것으로 기대하고 있다. 한 주민은 \"그동안 버스를 두 번 갈아타야 했다\"고 말했다.",
+   "r": [
+    53,
+    885,
+    814,
+    45
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 78
+  },
+  {
+   "kind": "text",
+   "t": 11,
+   "text": "다만 일부 구간은 소음 저감 공사가 끝나지 않아 야간 운행이 한 달간 제한된다.",
+   "r": [
+    53,
+    957,
+    484,
+    18
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 44
+  },
+  {
+   "kind": "text",
+   "t": 12,
+   "text": "요금은 기존 9호선과 같고, 환승 할인도 그대로 적용된다.",
+   "r": [
+    53,
+    1002,
+    353,
+    18
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 32
+  },
+  {
+   "kind": "text",
+   "t": 13,
+   "text": "서울시 관계자는 \"안전 점검을 한 번 더 거쳐 정확한 개통 날짜를 다음 주에 발표하겠다\"고 말했다.",
+   "r": [
+    53,
+    1047,
+    604,
+    18
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 55
+  },
+  {
+   "kind": "text",
+   "t": 14,
+   "text": "한편 5단계 연장 계획은 예비타당성 조사가 진행 중이다.",
+   "r": [
+    53,
+    1092,
+    348,
+    18
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 31
+  },
+  {
+   "kind": "text",
+   "t": 15,
+   "text": "시는 개통 기념 행사를 역 광장에서 열 계획이다.",
+   "r": [
+    53,
+    1138,
+    297,
+    18
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 27
+  },
+  {
+   "kind": "text",
+   "t": 16,
+   "text": "교통 전문가들은 연장 구간이 동부권 교통 흐름을 크게 바꿀 것으로 본다.",
+   "r": [
+    53,
+    1183,
+    448,
+    18
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 40
+  },
+  {
+   "kind": "text",
+   "t": 17,
+   "text": "버스 노선 조정안도 곧 공개된다.",
+   "r": [
+    53,
+    1228,
+    201,
+    18
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 18
+  },
+  {
+   "kind": "text",
+   "t": 18,
+   "text": "시민 의견은 시 홈페이지에서 10월 10일까지 받는다.",
+   "r": [
+    53,
+    1273,
+    326,
+    18
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 30
+  },
+  {
+   "kind": "heading",
+   "t": 19,
+   "text": "관련기사",
+   "level": 2,
+   "r": [
+    53,
+    1322,
+    83,
+    28
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "action",
+   "n": 17,
+   "role": "link",
+   "name": "개통 앞두고 시운전… 안전 점검 마쳐",
+   "tag": "a",
+   "states": [],
+   "r": [
+    93,
+    1381,
+    227,
+    18
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/a/1",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 20,
+   "text": "⟦17|개통 앞두고 시운전… 안전 점검 마쳐⟧",
+   "r": [
+    93,
+    1381,
+    227,
+    18
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "links": [
+    17
+   ],
+   "chars": 25,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 18,
+   "role": "link",
+   "name": "9호선 급행 늘린다",
+   "tag": "a",
+   "states": [],
+   "r": [
+    93,
+    1408,
+    115,
+    18
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/a/2",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 21,
+   "text": "⟦18|9호선 급행 늘린다⟧",
+   "r": [
+    93,
+    1408,
+    115,
+    18
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "links": [
+    18
+   ],
+   "chars": 15,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 19,
+   "role": "link",
+   "name": "동부권 교통 지도 바뀐다",
+   "tag": "a",
+   "states": [],
+   "r": [
+    93,
+    1435,
+    151,
+    18
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/a/3",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 22,
+   "text": "⟦19|동부권 교통 지도 바뀐다⟧",
+   "r": [
+    93,
+    1435,
+    151,
+    18
+   ],
+   "region": 4,
+   "pin": null,
+   "sc": null,
+   "links": [
+    19
+   ],
+   "chars": 18,
+   "onlyLinks": true
+  },
+  {
+   "kind": "text",
+   "t": 23,
+   "text": "댓글 312",
+   "r": [
+    73,
+    1543,
+    60,
+    18
+   ],
+   "region": 5,
+   "pin": null,
+   "sc": null,
+   "chars": 6
+  },
+  {
+   "kind": "action",
+   "n": 20,
+   "role": "button",
+   "name": "댓글 보기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    136,
+    1543,
+    66,
+    22
+   ],
+   "region": 5,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 21,
+   "role": "button",
+   "name": "댓글 쓰기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    206,
+    1543,
+    66,
+    22
+   ],
+   "region": 5,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 24,
+   "text": "많이 본 뉴스",
+   "level": 2,
+   "r": [
+    913,
+    128,
+    114,
+    28
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "chars": 7
+  },
+  {
+   "kind": "action",
+   "n": 22,
+   "role": "link",
+   "name": "금리 동결 결정",
+   "tag": "a",
+   "states": [],
+   "r": [
+    953,
+    186,
+    80,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/m/1",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 25,
+   "text": "⟦22|금리 동결 결정⟧",
+   "r": [
+    953,
+    186,
+    80,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "links": [
+    22
+   ],
+   "chars": 13,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 23,
+   "role": "link",
+   "name": "가을 태풍 북상",
+   "tag": "a",
+   "states": [],
+   "r": [
+    953,
+    216,
+    80,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/m/2",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 26,
+   "text": "⟦23|가을 태풍 북상⟧",
+   "r": [
+    953,
+    216,
+    80,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "links": [
+    23
+   ],
+   "chars": 13,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 24,
+   "role": "link",
+   "name": "프로야구 순위 경쟁",
+   "tag": "a",
+   "states": [],
+   "r": [
+    953,
+    245,
+    104,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/m/3",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 27,
+   "text": "⟦24|프로야구 순위 경쟁⟧",
+   "r": [
+    953,
+    245,
+    104,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "links": [
+    24
+   ],
+   "chars": 15,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 25,
+   "role": "link",
+   "name": "신형 스마트폰 공개",
+   "tag": "a",
+   "states": [],
+   "r": [
+    953,
+    275,
+    104,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/m/4",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 28,
+   "text": "⟦25|신형 스마트폰 공개⟧",
+   "r": [
+    953,
+    275,
+    104,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "links": [
+    25
+   ],
+   "chars": 15,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 26,
+   "role": "link",
+   "name": "추석 물가 점검",
+   "tag": "a",
+   "states": [],
+   "r": [
+    953,
+    305,
+    80,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/m/5",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 29,
+   "text": "⟦26|추석 물가 점검⟧",
+   "r": [
+    953,
+    305,
+    80,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "links": [
+    26
+   ],
+   "chars": 13,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 27,
+   "role": "link",
+   "name": "전기차 보조금 변경",
+   "tag": "a",
+   "states": [],
+   "r": [
+    953,
+    335,
+    104,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/m/6",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 30,
+   "text": "⟦27|전기차 보조금 변경⟧",
+   "r": [
+    953,
+    335,
+    104,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "links": [
+    27
+   ],
+   "chars": 15,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 28,
+   "role": "link",
+   "name": "대학 입시 일정",
+   "tag": "a",
+   "states": [],
+   "r": [
+    953,
+    365,
+    80,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/m/7",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 31,
+   "text": "⟦28|대학 입시 일정⟧",
+   "r": [
+    953,
+    365,
+    80,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "links": [
+    28
+   ],
+   "chars": 13,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 29,
+   "role": "link",
+   "name": "부동산 대책 발표",
+   "tag": "a",
+   "states": [],
+   "r": [
+    953,
+    394,
+    92,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/m/8",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 32,
+   "text": "⟦29|부동산 대책 발표⟧",
+   "r": [
+    953,
+    394,
+    92,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "links": [
+    29
+   ],
+   "chars": 14,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 30,
+   "role": "link",
+   "name": "한글날 행사",
+   "tag": "a",
+   "states": [],
+   "r": [
+    953,
+    424,
+    64,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/m/9",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 33,
+   "text": "⟦30|한글날 행사⟧",
+   "r": [
+    953,
+    424,
+    64,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "links": [
+    30
+   ],
+   "chars": 11,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 31,
+   "role": "link",
+   "name": "도심 자전거 도로 확대",
+   "tag": "a",
+   "states": [],
+   "r": [
+    953,
+    454,
+    120,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/m/10",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 34,
+   "text": "⟦31|도심 자전거 도로 확대⟧",
+   "r": [
+    953,
+    454,
+    120,
+    17
+   ],
+   "region": 6,
+   "pin": null,
+   "sc": null,
+   "links": [
+    31
+   ],
+   "chars": 17,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 32,
+   "role": "link",
+   "name": "회사소개",
+   "tag": "a",
+   "states": [],
+   "r": [
+    24,
+    1678,
+    42,
+    15
+   ],
+   "region": 7,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/f/1",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 35,
+   "text": "⟦32|회사소개⟧ ⟦33|광고안내⟧ ⟦34|구독신청⟧ ⟦35|고충처리⟧ ⟦36|청소년보호정책⟧ ⟦37|개인정보처리방침⟧ ⟦38|이용약관⟧ ⟦39|저작권⟧ ⟦40|RSS⟧ ⟦41|제보⟧",
+   "r": [
+    24,
+    1678,
+    511,
+    15
+   ],
+   "region": 7,
+   "pin": null,
+   "sc": null,
+   "links": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+   ],
+   "chars": 102,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 33,
+   "role": "link",
+   "name": "광고안내",
+   "tag": "a",
+   "states": [],
+   "r": [
+    74,
+    1678,
+    42,
+    15
+   ],
+   "region": 7,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/f/2",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 34,
+   "role": "link",
+   "name": "구독신청",
+   "tag": "a",
+   "states": [],
+   "r": [
+    123,
+    1678,
+    42,
+    15
+   ],
+   "region": 7,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/f/3",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 35,
+   "role": "link",
+   "name": "고충처리",
+   "tag": "a",
+   "states": [],
+   "r": [
+    173,
+    1678,
+    42,
+    15
+   ],
+   "region": 7,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/f/4",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 36,
+   "role": "link",
+   "name": "청소년보호정책",
+   "tag": "a",
+   "states": [],
+   "r": [
+    222,
+    1678,
+    73,
+    15
+   ],
+   "region": 7,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/f/5",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 37,
+   "role": "link",
+   "name": "개인정보처리방침",
+   "tag": "a",
+   "states": [],
+   "r": [
+    303,
+    1678,
+    83,
+    15
+   ],
+   "region": 7,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/f/6",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 38,
+   "role": "link",
+   "name": "이용약관",
+   "tag": "a",
+   "states": [],
+   "r": [
+    394,
+    1678,
+    42,
+    15
+   ],
+   "region": 7,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/f/7",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 39,
+   "role": "link",
+   "name": "저작권",
+   "tag": "a",
+   "states": [],
+   "r": [
+    443,
+    1678,
+    31,
+    15
+   ],
+   "region": 7,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/f/8",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 40,
+   "role": "link",
+   "name": "RSS",
+   "tag": "a",
+   "states": [],
+   "r": [
+    483,
+    1678,
+    23,
+    15
+   ],
+   "region": 7,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/f/9",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 41,
+   "role": "link",
+   "name": "제보",
+   "tag": "a",
+   "states": [],
+   "r": [
+    514,
+    1678,
+    21,
+    15
+   ],
+   "region": 7,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/f/10",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 36,
+   "text": "이 사이트는 쿠키를 사용합니다.",
+   "r": [
+    24,
+    763,
+    197,
+    18
+   ],
+   "region": 8,
+   "pin": "fixed",
+   "sc": null,
+   "chars": 17
+  },
+  {
+   "kind": "action",
+   "n": 42,
+   "role": "button",
+   "name": "모두 허용",
+   "tag": "button",
+   "states": [],
+   "r": [
+    231,
+    761,
+    66,
+    22
+   ],
+   "region": 8,
+   "pin": "fixed",
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 43,
+   "role": "button",
+   "name": "필요한 것만",
+   "tag": "button",
+   "states": [],
+   "r": [
+    307,
+    761,
+    77,
+    22
+   ],
+   "region": 8,
+   "pin": "fixed",
+   "sc": null,
+   "hit": true
+  }
+ ],
+ "regions": [
+  {
+   "id": 1,
+   "role": "banner",
+   "name": "",
+   "r": [
+    0,
+    0,
+    1265,
+    82
+   ],
+   "pin": "sticky",
+   "parent": null
+  },
+  {
+   "id": 2,
+   "role": "navigation",
+   "name": "섹션",
+   "r": [
+    24,
+    44,
+    1217,
+    27
+   ],
+   "pin": "sticky",
+   "parent": 1
+  },
+  {
+   "id": 3,
+   "role": "main",
+   "name": "",
+   "r": [
+    53,
+    82,
+    820,
+    1564
+   ],
+   "pin": null,
+   "parent": null
+  },
+  {
+   "id": 4,
+   "role": "region",
+   "name": "관련기사",
+   "r": [
+    53,
+    1316,
+    820,
+    142
+   ],
+   "pin": null,
+   "parent": 3
+  },
+  {
+   "id": 5,
+   "role": "region",
+   "name": "댓글",
+   "r": [
+    53,
+    1519,
+    820,
+    67
+   ],
+   "pin": null,
+   "parent": 3
+  },
+  {
+   "id": 6,
+   "role": "complementary",
+   "name": "많이 본 뉴스",
+   "r": [
+    913,
+    82,
+    300,
+    1564
+   ],
+   "pin": null,
+   "parent": null
+  },
+  {
+   "id": 7,
+   "role": "contentinfo",
+   "name": "",
+   "r": [
+    0,
+    1646,
+    1265,
+    170
+   ],
+   "pin": null,
+   "parent": null
+  },
+  {
+   "id": 8,
+   "role": "region",
+   "name": "쿠키 안내",
+   "r": [
+    0,
+    745,
+    1265,
+    55
+   ],
+   "pin": "fixed",
+   "parent": null
+  }
+ ],
+ "scrollers": [],
+ "dropped": {
+  "aria-hidden": 0,
+  "tiny": 0,
+  "transparent": 0,
+  "sr-only": 0,
+  "offscreen": 0,
+  "low-contrast": 0,
+  "nameless": 0
+ },
+ "hiddenSamples": [],
+ "facts": {
+  "lang": "ko",
+  "types": [
+   "NewsArticle"
+  ],
+  "og": {
+   "type": "article"
+  }
+ },
+ "visits": 209,
+ "truncated": false,
+ "ms": 5
+}

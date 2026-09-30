@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>주문 내역 | 예시몰</title>
+<style>
+  body { margin: 0; font-family: sans-serif; color: #222; }
+  header { display: flex; align-items: center; justify-content: space-between; padding: 12px 24px; border-bottom: 1px solid #ddd; }
+  header .logo { font-weight: bold; font-size: 22px; color: #0a7; text-decoration: none; }
+  /* 함정 1: 머리줄 링크가 뒤집혀 보임 (글 순서의 첫 링크가 화면 맨 오른쪽) */
+  header nav { display: flex; flex-direction: row-reverse; gap: 16px; }
+  main { padding: 24px; }
+  table { border-collapse: collapse; width: 100%; }
+  td, th { border-bottom: 1px solid #eee; padding: 10px; text-align: left; }
+  .backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.4); }
+  .dialog { position: fixed; top: 180px; left: 50%; width: 420px; margin-left: -210px; background: #fff; border-radius: 8px; padding: 24px; }
+  .dialog h2 { margin: 0 0 8px; }
+  /* 함정 2: 대화상자 단추도 뒤집혀 보임 */
+  .dialog .actions { display: flex; flex-direction: row-reverse; gap: 12px; justify-content: flex-start; margin-top: 16px; }
+  /* 함정 3: 닫기 단추는 글 순서로는 맨 끝이지만 화면에서는 오른쪽 위 구석 */
+  .dialog .x { position: absolute; top: 8px; right: 8px; border: 0; background: none; font-size: 20px; }
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/">예시몰</a>
+  <nav aria-label="내 메뉴">
+    <a href="/login">로그인</a>
+    <a href="/join">회원가입</a>
+    <a href="/help">고객센터</a>
+    <a href="/cart">장바구니</a>
+  </nav>
+</header>
+<main>
+  <h1>주문 내역</h1>
+  <table>
+    <tr><th>주문 번호</th><th>상품</th><th>금액</th><th></th></tr>
+    <tr><td>2026-0930-001</td><td>무선 이어폰 X2</td><td>59,000원</td><td><a href="/order/1">자세히</a></td></tr>
+    <tr><td>2026-0928-014</td><td>휴대폰 케이스</td><td>12,000원</td><td><a href="/order/2">자세히</a></td></tr>
+  </table>
+</main>
+<div class="backdrop"></div>
+<div class="dialog" role="dialog" aria-modal="true" aria-labelledby="dlg-title">
+  <h2 id="dlg-title">주문을 취소할까요?</h2>
+  <p>무선 이어폰 X2 (59,000원) 주문을 취소합니다. 취소하면 되돌릴 수 없어요.</p>
+  <div class="actions">
+    <button type="button">주문 취소하기</button>
+    <button type="button">돌아가기</button>
+  </div>
+  <button type="button" class="x" aria-label="닫기">×</button>
+</div>
+</body>
+</html>

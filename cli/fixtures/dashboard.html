@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>내 대시보드 | 예시 오피스</title>
+<style>
+  body { margin: 0; font-family: sans-serif; color: #222; }
+  /* 함정 1: 왼쪽 세로 메뉴는 아래에서 위로 쌓임 (글 순서의 첫 항목이 맨 아래) */
+  .side { position: fixed; left: 0; top: 0; bottom: 0; width: 160px; background: #f5f5f7; display: flex; flex-direction: column-reverse; justify-content: flex-end; gap: 8px; padding: 16px; box-sizing: border-box; }
+  .side a { display: block; padding: 8px; }
+  main { margin-left: 180px; padding: 24px; }
+  /* 함정 2: 칸의 자리를 바꿈 — 글 순서는 알림 · 날씨 · 일정 · 메모 */
+  .board { display: grid; grid-template-columns: 1fr 1fr; grid-template-areas: "memo sched" "weather alert"; gap: 20px; }
+  .w { border: 1px solid #ddd; border-radius: 8px; padding: 16px; min-height: 180px; }
+  .alert { grid-area: alert; } .weather { grid-area: weather; } .sched { grid-area: sched; } .memo { grid-area: memo; }
+</style>
+</head>
+<body>
+<nav class="side" aria-label="메뉴">
+  <a href="/home">홈</a>
+  <a href="/stats">통계</a>
+  <a href="/settings">설정</a>
+  <a href="/help">도움말</a>
+</nav>
+<main>
+  <h1>내 대시보드</h1>
+  <div class="board">
+    <section class="w alert" aria-labelledby="h-alert"><h2 id="h-alert">알림</h2><p>새 알림 3개</p><button type="button">알림 모두 읽기</button></section>
+    <section class="w weather" aria-labelledby="h-weather"><h2 id="h-weather">날씨</h2><p>서울 맑음 21°C</p><button type="button">날씨 새로고침</button></section>
+    <section class="w sched" aria-labelledby="h-sched"><h2 id="h-sched">일정</h2><p>오후 3시 회의</p><button type="button">일정 추가</button></section>
+    <section class="w memo" aria-labelledby="h-memo"><h2 id="h-memo">메모</h2><p>장보기: 우유, 달걀</p><button type="button">메모 쓰기</button></section>
+  </div>
+</main>
+</body>
+</html>

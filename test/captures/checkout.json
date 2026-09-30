@@ -1,0 +1,586 @@
+{
+ "capture": 1,
+ "no": 2,
+ "url": "gridfix://fixture/checkout.html",
+ "title": "여름 반팔 티셔츠 | 예시몰",
+ "viewport": {
+  "w": 1280,
+  "h": 800
+ },
+ "page": {
+  "w": 1280,
+  "h": 800
+ },
+ "scroll": {
+  "x": 0,
+  "y": 0
+ },
+ "dpr": 1,
+ "items": [
+  {
+   "kind": "action",
+   "n": 1,
+   "role": "link",
+   "name": "예시몰",
+   "tag": "a",
+   "states": [],
+   "r": [
+    24,
+    12,
+    57,
+    27
+   ],
+   "region": 1,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 2,
+   "role": "link",
+   "name": "장바구니 (0)",
+   "tag": "a",
+   "states": [],
+   "r": [
+    1176,
+    12,
+    80,
+    27
+   ],
+   "region": 1,
+   "pin": "sticky",
+   "sc": null,
+   "href": "gridfix://fixture/cart",
+   "hit": true
+  },
+  {
+   "kind": "media",
+   "t": 1,
+   "role": "img",
+   "name": "빨간 반팔 티셔츠 사진",
+   "r": [
+    24,
+    76,
+    600,
+    420
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null
+  },
+  {
+   "kind": "heading",
+   "t": 2,
+   "text": "여름 반팔 티셔츠",
+   "level": 1,
+   "r": [
+    656,
+    97,
+    211,
+    39
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 9
+  },
+  {
+   "kind": "text",
+   "t": 3,
+   "text": "~~25,000원~~ 19,900원",
+   "r": [
+    656,
+    158,
+    127,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 19
+  },
+  {
+   "kind": "text",
+   "t": 4,
+   "text": "무료 배송 · 오늘 주문하면 내일 도착",
+   "r": [
+    656,
+    193,
+    224,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 21
+  },
+  {
+   "kind": "text",
+   "t": 5,
+   "text": "카드 결제 시 최대 10% 추가 할인 · ⟦3|리뷰 4.8 (1,203)⟧",
+   "r": [
+    656,
+    228,
+    324,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    3
+   ],
+   "chars": 41
+  },
+  {
+   "kind": "action",
+   "n": 3,
+   "role": "link",
+   "name": "리뷰 4.8 (1,203)",
+   "tag": "a",
+   "states": [],
+   "r": [
+    876,
+    228,
+    104,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/review",
+   "inT": 5,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 4,
+   "role": "select",
+   "name": "색상",
+   "tag": "select",
+   "states": [
+    "required"
+   ],
+   "r": [
+    688,
+    263,
+    80,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "value": "선택하세요",
+   "options": [
+    "선택하세요",
+    "빨강",
+    "파랑",
+    "검정"
+   ],
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 6,
+   "text": "사이즈",
+   "r": [
+    672,
+    296,
+    42,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 3
+  },
+  {
+   "kind": "action",
+   "n": 5,
+   "role": "radio",
+   "name": "S",
+   "tag": "input",
+   "states": [
+    "required"
+   ],
+   "r": [
+    675,
+    323,
+    13,
+    13
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 6,
+   "role": "radio",
+   "name": "M",
+   "tag": "input",
+   "states": [],
+   "r": [
+    713,
+    323,
+    13,
+    13
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 7,
+   "role": "radio",
+   "name": "L",
+   "tag": "input",
+   "states": [],
+   "r": [
+    755,
+    323,
+    13,
+    13
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 7,
+   "text": "수량",
+   "r": [
+    656,
+    368,
+    28,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 2
+  },
+  {
+   "kind": "action",
+   "n": 8,
+   "role": "button",
+   "name": "수량 빼기",
+   "tag": "button",
+   "states": [
+    "disabled"
+   ],
+   "r": [
+    690,
+    367,
+    24,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 9,
+   "role": "spinbutton",
+   "name": "수량",
+   "tag": "input",
+   "states": [],
+   "r": [
+    719,
+    367,
+    56,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "value": "1",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 10,
+   "role": "button",
+   "name": "수량 더하기",
+   "tag": "button",
+   "states": [],
+   "r": [
+    781,
+    367,
+    24,
+    21
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 8,
+   "text": "색상과 사이즈를 고르면 장바구니에 담을 수 있어요. ⟦11|사이즈 가이드⟧",
+   "r": [
+    656,
+    404,
+    411,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    11
+   ],
+   "chars": 41
+  },
+  {
+   "kind": "action",
+   "n": 11,
+   "role": "link",
+   "name": "사이즈 가이드",
+   "tag": "a",
+   "states": [],
+   "r": [
+    980,
+    404,
+    87,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/size-guide",
+   "inT": 8,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 12,
+   "role": "button",
+   "name": "바로 구매",
+   "tag": "button",
+   "states": [],
+   "r": [
+    808,
+    447,
+    112,
+    47
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": false,
+   "by": {
+    "tag": "p",
+    "label": "쿠키 안내",
+    "layer": {
+     "role": "region",
+     "name": "쿠키 안내",
+     "pin": "fixed",
+     "close": 14,
+     "acts": [
+      14
+     ],
+     "count": 1,
+     "h": 380
+    }
+   }
+  },
+  {
+   "kind": "action",
+   "n": 13,
+   "role": "button",
+   "name": "장바구니 담기",
+   "tag": "button",
+   "states": [
+    "disabled"
+   ],
+   "r": [
+    656,
+    447,
+    140,
+    47
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "hit": false,
+   "by": {
+    "tag": "p",
+    "label": "쿠키 안내",
+    "layer": {
+     "role": "region",
+     "name": "쿠키 안내",
+     "pin": "fixed",
+     "close": 14,
+     "acts": [
+      14
+     ],
+     "count": 1,
+     "h": 380
+    }
+   }
+  },
+  {
+   "kind": "heading",
+   "t": 9,
+   "text": "상품 설명",
+   "level": 2,
+   "r": [
+    24,
+    548,
+    89,
+    29
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "text",
+   "t": 10,
+   "text": "가볍고 시원한 면 100% 반팔 티셔츠예요. 여름 내내 편하게 입을 수 있어요.",
+   "r": [
+    24,
+    601,
+    466,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 44
+  },
+  {
+   "kind": "text",
+   "t": 11,
+   "text": "세탁은 찬물에 뒤집어서 해 주세요. 건조기는 줄어들 수 있어요.",
+   "r": [
+    24,
+    646,
+    387,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 35
+  },
+  {
+   "kind": "text",
+   "t": 12,
+   "text": "이 사이트는 더 나은 서비스를 위해 쿠키를 사용합니다.",
+   "r": [
+    24,
+    460,
+    338,
+    19
+   ],
+   "region": 4,
+   "pin": "fixed",
+   "sc": null,
+   "chars": 30
+  },
+  {
+   "kind": "action",
+   "n": 14,
+   "role": "button",
+   "name": "확인",
+   "tag": "button",
+   "states": [],
+   "r": [
+    24,
+    495,
+    39,
+    22
+   ],
+   "region": 4,
+   "pin": "fixed",
+   "sc": null,
+   "hit": true
+  }
+ ],
+ "regions": [
+  {
+   "id": 1,
+   "role": "banner",
+   "name": "",
+   "r": [
+    0,
+    0,
+    1280,
+    52
+   ],
+   "pin": "sticky",
+   "parent": null
+  },
+  {
+   "id": 2,
+   "role": "main",
+   "name": "",
+   "r": [
+    0,
+    52,
+    1280,
+    658
+   ],
+   "pin": null,
+   "parent": null
+  },
+  {
+   "id": 3,
+   "role": "region",
+   "name": "상품 설명",
+   "r": [
+    24,
+    528,
+    1232,
+    158
+   ],
+   "pin": null,
+   "parent": 2
+  },
+  {
+   "id": 4,
+   "role": "region",
+   "name": "쿠키 안내",
+   "r": [
+    0,
+    420,
+    1280,
+    380
+   ],
+   "pin": "fixed",
+   "parent": null
+  }
+ ],
+ "scrollers": [],
+ "dropped": {
+  "aria-hidden": 0,
+  "tiny": 0,
+  "transparent": 0,
+  "sr-only": 0,
+  "offscreen": 0,
+  "low-contrast": 0,
+  "nameless": 0
+ },
+ "hiddenSamples": [],
+ "facts": {
+  "lang": "ko",
+  "types": [],
+  "og": {}
+ },
+ "visits": 126,
+ "truncated": false,
+ "ms": 2
+}

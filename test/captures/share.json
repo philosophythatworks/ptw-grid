@@ -1,0 +1,796 @@
+{
+ "capture": 1,
+ "no": 2,
+ "url": "gridfix://fixture/share.html",
+ "title": "도시 텃밭 가꾸기 안내 | 예시 매거진",
+ "viewport": {
+  "w": 1280,
+  "h": 800
+ },
+ "page": {
+  "w": 1280,
+  "h": 1252
+ },
+ "scroll": {
+  "x": 0,
+  "y": 0
+ },
+ "dpr": 1,
+ "items": [
+  {
+   "kind": "action",
+   "n": 1,
+   "role": "link",
+   "name": "예시 매거진",
+   "tag": "a",
+   "states": [],
+   "r": [
+    88,
+    16,
+    73,
+    19
+   ],
+   "region": 1,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/",
+   "inT": 1,
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 1,
+   "text": "⟦1|예시 매거진⟧ · ⟦2|생활⟧ · ⟦3|정원⟧",
+   "r": [
+    88,
+    16,
+    156,
+    19
+   ],
+   "region": 1,
+   "pin": null,
+   "sc": null,
+   "links": [
+    1,
+    2,
+    3
+   ],
+   "chars": 28
+  },
+  {
+   "kind": "action",
+   "n": 2,
+   "role": "link",
+   "name": "생활",
+   "tag": "a",
+   "states": [],
+   "r": [
+    175,
+    16,
+    28,
+    19
+   ],
+   "region": 1,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/life",
+   "inT": 1,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 3,
+   "role": "link",
+   "name": "정원",
+   "tag": "a",
+   "states": [],
+   "r": [
+    216,
+    16,
+    28,
+    19
+   ],
+   "region": 1,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/garden",
+   "inT": 1,
+   "hit": true
+  },
+  {
+   "kind": "heading",
+   "t": 2,
+   "text": "도시 텃밭 가꾸기 안내",
+   "level": 1,
+   "r": [
+    235,
+    105,
+    274,
+    39
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 12
+  },
+  {
+   "kind": "heading",
+   "t": 3,
+   "text": "목차",
+   "level": 2,
+   "r": [
+    862,
+    190,
+    28,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "chars": 2
+  },
+  {
+   "kind": "action",
+   "n": 4,
+   "role": "link",
+   "name": "준비물",
+   "tag": "a",
+   "states": [],
+   "r": [
+    902,
+    234,
+    42,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/share.html#s1",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 4,
+   "text": "⟦4|준비물⟧",
+   "r": [
+    902,
+    234,
+    42,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    4
+   ],
+   "chars": 7,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 5,
+   "role": "link",
+   "name": "흙 고르기",
+   "tag": "a",
+   "states": [],
+   "r": [
+    902,
+    261,
+    60,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/share.html#s2",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 5,
+   "text": "⟦5|흙 고르기⟧",
+   "r": [
+    902,
+    261,
+    60,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    5
+   ],
+   "chars": 9,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 6,
+   "role": "link",
+   "name": "심기",
+   "tag": "a",
+   "states": [],
+   "r": [
+    902,
+    288,
+    28,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/share.html#s3",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 6,
+   "text": "⟦6|심기⟧",
+   "r": [
+    902,
+    288,
+    28,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    6
+   ],
+   "chars": 6,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 7,
+   "role": "link",
+   "name": "물 주기",
+   "tag": "a",
+   "states": [],
+   "r": [
+    902,
+    315,
+    46,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/share.html#s4",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 7,
+   "text": "⟦7|물 주기⟧",
+   "r": [
+    902,
+    315,
+    46,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    7
+   ],
+   "chars": 8,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 8,
+   "role": "link",
+   "name": "결론",
+   "tag": "a",
+   "states": [],
+   "r": [
+    902,
+    342,
+    28,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/share.html#s5",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 8,
+   "text": "⟦8|결론⟧",
+   "r": [
+    902,
+    342,
+    28,
+    19
+   ],
+   "region": 2,
+   "pin": null,
+   "sc": null,
+   "links": [
+    8
+   ],
+   "chars": 6,
+   "onlyLinks": true
+  },
+  {
+   "kind": "heading",
+   "t": 9,
+   "text": "준비물",
+   "level": 2,
+   "r": [
+    235,
+    178,
+    62,
+    29
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 3
+  },
+  {
+   "kind": "text",
+   "t": 10,
+   "text": "베란다나 옥상에서도 작은 텃밭을 만들 수 있어요. 화분, 흙, 모종삽, 물뿌리개가 있으면 시작할 수 있습니다. 해가 하루 여섯 시간 이상 드는 곳이 좋아요.",
+   "r": [
+    235,
+    238,
+    577,
+    46
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 87
+  },
+  {
+   "kind": "text",
+   "t": 11,
+   "text": "처음에는 상추, 방울토마토, 바질처럼 기르기 쉬운 작물을 추천해요. 씨앗보다 모종으로 시작하면 실패가 적습니다.",
+   "r": [
+    235,
+    309,
+    579,
+    46
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 62
+  },
+  {
+   "kind": "heading",
+   "t": 12,
+   "text": "흙 고르기",
+   "level": 2,
+   "r": [
+    235,
+    384,
+    89,
+    29
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 5
+  },
+  {
+   "kind": "text",
+   "t": 13,
+   "text": "배수가 잘 되는 상토를 쓰세요. 화분 바닥에 마사토를 한 겹 깔면 뿌리가 숨을 쉬기 쉬워요. 퇴비를 조금 섞으면 영양이 좋아집니다.",
+   "r": [
+    235,
+    444,
+    797,
+    19
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 73
+  },
+  {
+   "kind": "text",
+   "t": 14,
+   "text": "오래 쓴 흙은 햇볕에 말리고 새 흙과 섞어 다시 쓸 수 있어요. 병든 식물을 기른 흙은 버리는 편이 안전합니다.",
+   "r": [
+    235,
+    487,
+    664,
+    19
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 62
+  },
+  {
+   "kind": "text",
+   "t": 15,
+   "text": "흙의 산도는 대부분의 채소가 약산성에서 잘 자랍니다. 석회를 너무 많이 넣으면 잎이 노랗게 변할 수 있어요.",
+   "r": [
+    235,
+    530,
+    665,
+    19
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 60
+  },
+  {
+   "kind": "heading",
+   "t": 16,
+   "text": "심기",
+   "level": 2,
+   "r": [
+    235,
+    578,
+    42,
+    29
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 2
+  },
+  {
+   "kind": "text",
+   "t": 17,
+   "text": "모종은 흐린 날이나 해 질 무렵에 심으면 몸살을 덜 해요. 모종 사이 간격은 다 자랐을 때의 잎 크기를 생각해서 넉넉히 둡니다.",
+   "r": [
+    235,
+    638,
+    770,
+    19
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 71
+  },
+  {
+   "kind": "text",
+   "t": 18,
+   "text": "심은 뒤에는 흙을 가볍게 눌러 뿌리와 흙이 닿게 하고, 물을 충분히 줍니다. 첫 주에는 강한 햇볕을 조금 가려 주면 좋아요.",
+   "r": [
+    235,
+    681,
+    741,
+    19
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 69
+  },
+  {
+   "kind": "text",
+   "t": 19,
+   "text": "방울토마토는 지지대를 함께 세워 주세요. 줄기가 자라면서 끈으로 느슨하게 묶어 줍니다.",
+   "r": [
+    235,
+    724,
+    548,
+    19
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 48
+  },
+  {
+   "kind": "heading",
+   "t": 20,
+   "text": "물 주기",
+   "level": 2,
+   "r": [
+    235,
+    772,
+    69,
+    29
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 4
+  },
+  {
+   "kind": "text",
+   "t": 21,
+   "text": "겉흙이 마르면 화분 밑으로 물이 흘러나올 만큼 흠뻑 줍니다. 조금씩 자주 주면 뿌리가 얕게 자라서 더위에 약해져요.",
+   "r": [
+    235,
+    832,
+    711,
+    19
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 64
+  },
+  {
+   "kind": "text",
+   "t": 22,
+   "text": "여름에는 아침 일찍이나 저녁에 물을 주세요. 한낮에 주면 물이 금방 날아가고 잎이 상할 수 있습니다.",
+   "r": [
+    235,
+    875,
+    620,
+    19
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 56
+  },
+  {
+   "kind": "text",
+   "t": 23,
+   "text": "장마철에는 물 주기를 줄이고 화분 받침에 고인 물을 버려 뿌리가 썩지 않게 합니다.",
+   "r": [
+    235,
+    918,
+    511,
+    19
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 46
+  },
+  {
+   "kind": "text",
+   "t": 24,
+   "text": "잎 색이 옅어지면 웃거름을 조금 주고, 잎이 시들면 물이 모자란지 넘치는지 흙을 만져 확인해 보세요.",
+   "r": [
+    235,
+    961,
+    620,
+    19
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 56
+  },
+  {
+   "kind": "heading",
+   "t": 25,
+   "text": "결론",
+   "level": 2,
+   "r": [
+    235,
+    1010,
+    42,
+    29
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 2
+  },
+  {
+   "kind": "text",
+   "t": 26,
+   "text": "작은 화분 몇 개로 시작해도 식탁이 풍성해집니다. 올해는 도시 텃밭에 도전해 보세요.",
+   "r": [
+    235,
+    1069,
+    524,
+    19
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 47
+  },
+  {
+   "kind": "text",
+   "t": 27,
+   "text": "다음 호에서는 가을 작물 심는 법을 알려 드릴게요.",
+   "r": [
+    235,
+    1112,
+    310,
+    19
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 28
+  },
+  {
+   "kind": "text",
+   "t": 28,
+   "text": "예시 매거진 · 무단 전재 금지",
+   "r": [
+    88,
+    1205,
+    178,
+    19
+   ],
+   "region": 3,
+   "pin": null,
+   "sc": null,
+   "chars": 17
+  },
+  {
+   "kind": "action",
+   "n": 9,
+   "role": "button",
+   "name": "좋아요",
+   "tag": "button",
+   "states": [],
+   "r": [
+    12,
+    200,
+    56,
+    40
+   ],
+   "region": null,
+   "pin": "fixed",
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 10,
+   "role": "button",
+   "name": "공유",
+   "tag": "button",
+   "states": [],
+   "r": [
+    12,
+    248,
+    56,
+    40
+   ],
+   "region": null,
+   "pin": "fixed",
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 11,
+   "role": "button",
+   "name": "저장",
+   "tag": "button",
+   "states": [],
+   "r": [
+    12,
+    296,
+    56,
+    40
+   ],
+   "region": null,
+   "pin": "fixed",
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 12,
+   "role": "button",
+   "name": "인쇄",
+   "tag": "button",
+   "states": [],
+   "r": [
+    12,
+    344,
+    56,
+    40
+   ],
+   "region": null,
+   "pin": "fixed",
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 13,
+   "role": "button",
+   "name": "맨 위로",
+   "tag": "button",
+   "states": [],
+   "r": [
+    12,
+    762,
+    54,
+    22
+   ],
+   "region": null,
+   "pin": "fixed",
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 14,
+   "role": "button",
+   "name": "챗봇 상담",
+   "tag": "button",
+   "states": [],
+   "r": [
+    1183,
+    762,
+    66,
+    22
+   ],
+   "region": null,
+   "pin": "fixed",
+   "sc": null,
+   "hit": true
+  }
+ ],
+ "regions": [
+  {
+   "id": 1,
+   "role": "banner",
+   "name": "",
+   "r": [
+    0,
+    0,
+    1265,
+    52
+   ],
+   "pin": null,
+   "parent": null
+  },
+  {
+   "id": 2,
+   "role": "complementary",
+   "name": "목차",
+   "r": [
+    849,
+    173,
+    246,
+    221
+   ],
+   "pin": null,
+   "parent": null
+  },
+  {
+   "id": 3,
+   "role": "contentinfo",
+   "name": "",
+   "r": [
+    0,
+    1176,
+    1265,
+    76
+   ],
+   "pin": null,
+   "parent": null
+  }
+ ],
+ "scrollers": [],
+ "dropped": {
+  "aria-hidden": 0,
+  "tiny": 0,
+  "transparent": 0,
+  "sr-only": 0,
+  "offscreen": 0,
+  "low-contrast": 0,
+  "nameless": 0
+ },
+ "hiddenSamples": [],
+ "facts": {
+  "lang": "ko",
+  "types": [],
+  "og": {}
+ },
+ "visits": 125,
+ "truncated": false,
+ "ms": 3
+}

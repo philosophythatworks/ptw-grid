@@ -1,0 +1,339 @@
+{
+ "capture": 1,
+ "no": 2,
+ "url": "gridfix://fixture/form.html",
+ "title": "로그인 · 위젯 시험 | 예시",
+ "viewport": {
+  "w": 1280,
+  "h": 800
+ },
+ "page": {
+  "w": 1280,
+  "h": 800
+ },
+ "scroll": {
+  "x": 0,
+  "y": 0
+ },
+ "dpr": 1,
+ "items": [
+  {
+   "kind": "heading",
+   "t": 1,
+   "text": "로그인",
+   "level": 1,
+   "r": [
+    24,
+    44,
+    78,
+    35
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 3
+  },
+  {
+   "kind": "action",
+   "n": 1,
+   "role": "textbox",
+   "name": "이메일",
+   "tag": "input",
+   "states": [],
+   "r": [
+    88,
+    123,
+    153,
+    42
+   ],
+   "region": 1,
+   "pin": null,
+   "sc": null,
+   "value": "test@example.com",
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 2,
+   "role": "textbox",
+   "name": "비밀번호",
+   "tag": "input",
+   "states": [],
+   "r": [
+    101,
+    175,
+    153,
+    42
+   ],
+   "region": 1,
+   "pin": null,
+   "sc": null,
+   "value": "(filled)",
+   "sensitive": true,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 3,
+   "role": "checkbox",
+   "name": "로그인 상태 유지",
+   "tag": "input",
+   "states": [
+    "checked"
+   ],
+   "r": [
+    49,
+    230,
+    13,
+    13
+   ],
+   "region": 1,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 4,
+   "role": "button",
+   "name": "로그인",
+   "tag": "button",
+   "states": [],
+   "r": [
+    45,
+    258,
+    380,
+    22
+   ],
+   "region": 1,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 5,
+   "role": "link",
+   "name": "비밀번호 찾기",
+   "tag": "a",
+   "states": [],
+   "r": [
+    45,
+    290,
+    380,
+    20
+   ],
+   "region": 1,
+   "pin": null,
+   "sc": null,
+   "href": "gridfix://fixture/find",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 2,
+   "text": "쉐도우 안의 글",
+   "r": [
+    37,
+    389,
+    86,
+    18
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 8
+  },
+  {
+   "kind": "action",
+   "n": 6,
+   "role": "button",
+   "name": "쉐도우 버튼",
+   "tag": "button",
+   "states": [],
+   "r": [
+    37,
+    424,
+    77,
+    22
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "media",
+   "t": 3,
+   "role": "iframe",
+   "name": "같은 출처 프레임",
+   "r": [
+    340,
+    361,
+    362,
+    162
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null
+  },
+  {
+   "kind": "text",
+   "t": 4,
+   "text": "프레임 안의 글",
+   "r": [
+    349,
+    376,
+    80,
+    17
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 8
+  },
+  {
+   "kind": "action",
+   "n": 7,
+   "role": "button",
+   "name": "프레임 버튼",
+   "tag": "button",
+   "states": [],
+   "r": [
+    349,
+    408,
+    77,
+    22
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "action",
+   "n": 8,
+   "role": "link",
+   "name": "프레임 링크",
+   "tag": "a",
+   "states": [],
+   "r": [
+    430,
+    409,
+    64,
+    17
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "href": "https://example.com/inside",
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 5,
+   "text": "⟦8|프레임 링크⟧",
+   "r": [
+    430,
+    409,
+    64,
+    17
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "links": [
+    8
+   ],
+   "chars": 10,
+   "onlyLinks": true
+  },
+  {
+   "kind": "action",
+   "n": 9,
+   "role": "button",
+   "name": "자세히 보기",
+   "tag": "summary",
+   "states": [
+    "expanded"
+   ],
+   "r": [
+    24,
+    553,
+    1232,
+    20
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  },
+  {
+   "kind": "text",
+   "t": 6,
+   "text": "펼쳐진 안내 글입니다.",
+   "r": [
+    24,
+    588,
+    129,
+    18
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "chars": 12
+  },
+  {
+   "kind": "action",
+   "n": 10,
+   "role": "button",
+   "name": "안쪽 버튼",
+   "tag": "button",
+   "states": [],
+   "r": [
+    24,
+    623,
+    66,
+    22
+   ],
+   "region": null,
+   "pin": null,
+   "sc": null,
+   "hit": true
+  }
+ ],
+ "regions": [
+  {
+   "id": 1,
+   "role": "form",
+   "name": "로그인",
+   "r": [
+    24,
+    102,
+    422,
+    229
+   ],
+   "pin": null,
+   "parent": null
+  }
+ ],
+ "scrollers": [],
+ "dropped": {
+  "aria-hidden": 0,
+  "tiny": 0,
+  "transparent": 0,
+  "sr-only": 0,
+  "offscreen": 0,
+  "low-contrast": 0,
+  "nameless": 0
+ },
+ "hiddenSamples": [],
+ "facts": {
+  "lang": "ko",
+  "types": [],
+  "og": {}
+ },
+ "visits": 67,
+ "truncated": false,
+ "ms": 1
+}
